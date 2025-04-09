@@ -1,0 +1,21 @@
+{
+  "url": "/bangalore/meeting-room/bangalore",
+  "selectedFilters": {
+    "PRODUCT": "MEETING_ROOM",
+    "CITY": "bangalore",
+    "LOCALITIES": ["ChIJLfyY2E4UrjsRVq4AjI7zgRY"],
+    "CAPACITY": 8,
+    "DATE_DURATION_TIME": {
+      "DURATION": 4,
+      "BOOKING_DATE": "2025-04-23T18:30:00.000Z",
+      "TIME_SLOT": []
+    },
+    "SORT_BY": "POPULARITY",
+    "EQUIPMENTS": [],
+    "BRANDS": [],
+    "PRICE_RANGE": { "range": [400, 11880] },
+    "AMENITIES": []
+  },
+  "pageNo": 1,
+  "pageLimit": 16
+}

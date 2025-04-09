@@ -1,0 +1,3941 @@
+{
+    "success": true,
+    "data": {
+        "paginationParam": {
+            "count": 59,
+            "next": 2,
+            "previous": null
+        },
+        "workspaces": [
+            {
+                "_id": "60b1398723807b014e504c44",
+                "name": "Awfis",
+                "buildingName": "Rajapushpa Summit",
+                "slug": "awfis-rajapushpa-summit",
+                "location": "Gachibowli",
+                "city": "Hyderabad",
+                "region": "Hyderabad",
+                "spaceType": "coworking",
+                "directions": {
+                    "connectivityDetails": []
+                },
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        78.33923512612535,
+                        17.423212428421035
+                    ]
+                },
+                "isFavouritedWorkspace": false,
+                "meetingroomworkspace": {
+                    "blockReserve": false,
+                    "timings": "08:00 am to 08:00 pm - Monday to Saturday",
+                    "allowBookings": true,
+                    "status": "LIVE",
+                    "amenities": [
+                        {
+                            "amenity": "6412cc7c2bb256203498312f",
+                            "isPaid": false,
+                            "details": [
+                                "Instant"
+                            ]
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983130",
+                            "isPaid": false,
+                            "details": [
+                                "Instant"
+                            ]
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983131",
+                            "details": [
+                                "RO Water"
+                            ]
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b66",
+                            "details": [
+                                "Refrigerator"
+                            ],
+                            "description": "Mini nooks with access to microwave, beverage stations and water coolers"
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199db",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccb42bb256203498313e",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b84",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccc22bb256203498313f",
+                            "isPaid": true,
+                            "details": [
+                                "Limited Parking"
+                            ]
+                        },
+                        {
+                            "amenity": "6412ccc22bb2562034983140",
+                            "isPaid": true,
+                            "details": [
+                                "Limited Parking"
+                            ]
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e2",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e3",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e4",
+                            "details": []
+                        }
+                    ],
+                    "popularityScore": 9,
+                    "tags": {
+                        "social": [
+                            {
+                                "id": "POPULAR_WORKSPACE",
+                                "data": {
+                                    "text": "Popular",
+                                    "icon": {
+                                        "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/assets/popularity-tag.svg",
+                                        "alt": "Popular Tag"
+                                    }
+                                }
+                            }
+                        ],
+                        "product": [],
+                        "offer": []
+                    }
+                },
+                "meetingroominventories": [
+                    {
+                        "_id": "6527b7a8062732ba2dfb3c26",
+                        "capacity": "6",
+                        "images": [
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/mmqbnh2gyhrfervcadt5.jpg",
+                                "alt": "Awfis meeting rooms in Gachibowli, Hyderabad"
+                            }
+                        ],
+                        "equipments": [
+                            {
+                                "id": "MONITOR_TV",
+                                "title": "Monitor/TV",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/monitor_tv.svg",
+                                    "alt": "Monitor/TV"
+                                }
+                            },
+                            {
+                                "id": "WHITEBOARD",
+                                "title": "Whiteboard",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/whiteboard.svg",
+                                    "alt": "Whiteboard"
+                                }
+                            },
+                            {
+                                "id": "WIFI",
+                                "title": "Wifi",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/wifi.svg",
+                                    "alt": "Wifi"
+                                }
+                            }
+                        ],
+                        "usecases": [
+                            "Board Meeting/Presentation",
+                            "Interviews",
+                            "Brainstorming"
+                        ],
+                        "pricePerHour": 1200,
+                        "unitIds": [
+                            "6527b7a8062732ba2dfb3c26"
+                        ],
+                        "state": "ACTIVE",
+                        "bookingType": "ONLINE_INSTANT",
+                        "redirectUrl": "/meeting-room/awfis-rajapushpa-summit?capacity=6&date=2025-04-08T18%3A30%3A00.000Z",
+                        "bookingRedirectUrl": "/meeting-room/payment/room-list/awfis-rajapushpa-summit?capacity=6&date=2025-04-08T18%3A30%3A00.000Z"
+                    }
+                ],
+                "cta": {
+                    "data": {
+                        "text": "Book Now"
+                    }
+                },
+                "meetingroominventorygroup": {
+                    "capacity": 6,
+                    "bookingType": "ONLINE_INSTANT",
+                    "pricing": {
+                        "pricePerHour": 1200
+                    },
+                    "nextAvailableDate": "2025-04-08T18:30:00.000Z"
+                }
+            },
+            {
+                "_id": "60e990d1356ef88660a34f1c",
+                "name": "Oyo Workflo",
+                "buildingName": "Bizness Square",
+                "slug": "oyo-workflo-bizness-square",
+                "location": "HITEC City",
+                "city": "Hyderabad",
+                "region": "Hyderabad",
+                "spaceType": "coworking",
+                "directions": {
+                    "connectivityDetails": [
+                        {
+                            "icon": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/metroicons/hyderabad-metro-blue.svg",
+                            "station": "HITEC City",
+                            "lineName": "Blue",
+                            "distance": 800,
+                            "connectivityType": "METRO"
+                        }
+                    ]
+                },
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        78.37395486680775,
+                        17.45667992609518
+                    ]
+                },
+                "isFavouritedWorkspace": false,
+                "meetingroomworkspace": {
+                    "blockReserve": false,
+                    "timings": "08:00 am to 08:00 pm - Monday to Saturday",
+                    "allowBookings": true,
+                    "status": "LIVE",
+                    "amenities": [
+                        {
+                            "amenity": "6412ccc22bb256203498313f",
+                            "isPaid": true,
+                            "details": [],
+                            "description": "Parking is subject to availability"
+                        },
+                        {
+                            "amenity": "6412ccc22bb2562034983140",
+                            "isPaid": true,
+                            "details": [],
+                            "description": "Parking is subject to availability"
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b7b",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb256203498312f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983130",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983131",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b66",
+                            "details": [],
+                            "description": "Mini nooks with access to microwave, beverage stations and water coolers"
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199db",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccb42bb256203498313e",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b84",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b59",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b8d",
+                            "isPaid": false,
+                            "details": [],
+                            "description": "Personal storage space to lock-up your workspace essentials."
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b6b",
+                            "details": [],
+                            "description": "Open-layout lunch area with comfortable seating to enjoy your meals. "
+                        }
+                    ],
+                    "popularityScore": 9,
+                    "tags": {
+                        "social": [
+                            {
+                                "id": "POPULAR_WORKSPACE",
+                                "data": {
+                                    "text": "Popular",
+                                    "icon": {
+                                        "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/assets/popularity-tag.svg",
+                                        "alt": "Popular Tag"
+                                    }
+                                }
+                            }
+                        ],
+                        "product": [],
+                        "offer": [
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "50% "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "OFF "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "on "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "your "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "first "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "booking."
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": " Use"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " MYHQ50"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "50% "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "OFF "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "on "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "your "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "first "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "booking. "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Use "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "FIRSTMR50"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "20% "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "OFF "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "on "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Oyo "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "innov8 "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "bookings "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "every "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Wednesdays. "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Use "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "MIDWEEK20 "
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "20% "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "OFF "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "on "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "this "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "workspace "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "every "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Saturday. "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Use. "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "SATURDAYS20 "
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "meetingroominventories": [
+                    {
+                        "_id": "6675723202899e6465ef15e6",
+                        "capacity": "10",
+                        "images": [
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/oyo-workflo-bizness-square/meeting-room/plans/10-seater/vayuca.jpg",
+                                "alt": "Oyo Workflo meeting rooms in HITEC City, Hyderabad"
+                            }
+                        ],
+                        "equipments": [
+                            {
+                                "id": "MONITOR_TV",
+                                "title": "Monitor/TV",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/monitor_tv.svg",
+                                    "alt": "Monitor/TV"
+                                }
+                            },
+                            {
+                                "id": "WHITEBOARD",
+                                "title": "Whiteboard",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/whiteboard.svg",
+                                    "alt": "Whiteboard"
+                                }
+                            },
+                            {
+                                "id": "WIFI",
+                                "title": "Wifi",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/wifi.svg",
+                                    "alt": "Wifi"
+                                }
+                            }
+                        ],
+                        "usecases": [
+                            "Board Meeting/Presentation",
+                            "Team Meeting",
+                            "Brainstorming",
+                            "Interviews"
+                        ],
+                        "pricePerHour": 1000,
+                        "rackPricePerHour": 1200,
+                        "unitIds": [
+                            "6675723202899e6465ef15e6"
+                        ],
+                        "state": "ACTIVE",
+                        "bookingType": "ONLINE_INSTANT",
+                        "redirectUrl": "/meeting-room/oyo-workflo-bizness-square?capacity=10&date=2025-04-08T18%3A30%3A00.000Z",
+                        "bookingRedirectUrl": "/meeting-room/payment/room-list/oyo-workflo-bizness-square?capacity=10&date=2025-04-08T18%3A30%3A00.000Z"
+                    }
+                ],
+                "cta": {
+                    "data": {
+                        "text": "Book Now"
+                    }
+                },
+                "meetingroominventorygroup": {
+                    "capacity": 10,
+                    "bookingType": "ONLINE_INSTANT",
+                    "pricing": {
+                        "pricePerHour": 1000,
+                        "rackPricePerHour": 1200,
+                        "offerPricePerHour": 750,
+                        "offerMessage": "Use MYHQ50"
+                    },
+                    "nextAvailableDate": "2025-04-08T18:30:00.000Z"
+                }
+            },
+            {
+                "_id": "64799bbc34acdc7909fb9d12",
+                "name": "Apeejay Business Centre",
+                "buildingName": "The Park",
+                "slug": "apeejay-business-centre-the-park",
+                "location": "Somajiguda",
+                "city": "Hyderabad",
+                "region": "Hyderabad",
+                "spaceType": "coworking",
+                "directions": {
+                    "connectivityDetails": []
+                },
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        78.46247725081916,
+                        17.42377398813855
+                    ]
+                },
+                "isFavouritedWorkspace": false,
+                "meetingroomworkspace": {
+                    "blockReserve": false,
+                    "timings": "10:00 am to 07:00 pm - Monday to Saturday",
+                    "allowBookings": true,
+                    "status": "LIVE",
+                    "amenities": [
+                        {
+                            "amenity": "6412ccc22bb256203498313f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccc22bb2562034983140",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b78",
+                            "isPaid": false,
+                            "details": [],
+                            "description": ""
+                        },
+                        {
+                            "amenity": "6412cc7c2bb256203498312f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983130",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983131",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b66",
+                            "details": [],
+                            "description": "Mini nooks with access to microwave, beverage stations and water coolers"
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199db",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccb42bb256203498313e",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b84",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e2",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e3",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e4",
+                            "details": []
+                        }
+                    ],
+                    "popularityScore": 9,
+                    "tags": {
+                        "social": [
+                            {
+                                "id": "POPULAR_WORKSPACE",
+                                "data": {
+                                    "text": "Popular",
+                                    "icon": {
+                                        "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/assets/popularity-tag.svg",
+                                        "alt": "Popular Tag"
+                                    }
+                                }
+                            }
+                        ],
+                        "product": [],
+                        "offer": [
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " 25% off"
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": " on your Apeejay Meeting room using coupon"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " MEETINGQ25"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " 15% off"
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": " on your Apeejay Meeting room every Monday using coupon"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " APEEJAYMON15"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " 20% off"
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": " on your Apeejay Meeting room every Saturday coupon"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " APEEJAYSAT20"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "meetingroominventories": [
+                    {
+                        "_id": "67c6a48e6c968e09b0ae1139",
+                        "capacity": "8",
+                        "images": [
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/apeejay-business-centre-the-park/meeting-room/plans/8-seater/3tdgbu.jpg",
+                                "alt": "Apeejay Business Centre meeting rooms in Somajiguda, Hyderabad"
+                            }
+                        ],
+                        "equipments": [
+                            {
+                                "id": "MONITOR_TV",
+                                "title": "Monitor/TV",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/monitor_tv.svg",
+                                    "alt": "Monitor/TV"
+                                }
+                            },
+                            {
+                                "id": "PROJECTOR",
+                                "title": "Projector",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/projector.svg",
+                                    "alt": "Projector"
+                                }
+                            },
+                            {
+                                "id": "SPEAKERS",
+                                "title": "Speakers",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/speakers.svg",
+                                    "alt": "Speakers"
+                                }
+                            },
+                            {
+                                "id": "VIDEO_CONFERENCE",
+                                "title": "Video Conference",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/video_conference.svg",
+                                    "alt": "Video Conference"
+                                }
+                            },
+                            {
+                                "id": "WHITEBOARD",
+                                "title": "Whiteboard",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/whiteboard.svg",
+                                    "alt": "Whiteboard"
+                                }
+                            },
+                            {
+                                "id": "WIFI",
+                                "title": "Wifi",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/wifi.svg",
+                                    "alt": "Wifi"
+                                }
+                            }
+                        ],
+                        "usecases": [
+                            "Team Meeting",
+                            "Brainstorming",
+                            "Interviews"
+                        ],
+                        "pricePerHour": 799,
+                        "unitIds": [
+                            "67c6a48e6c968e09b0ae1139"
+                        ],
+                        "state": "ACTIVE",
+                        "bookingType": "ONLINE_INSTANT",
+                        "redirectUrl": "/meeting-room/apeejay-business-centre-the-park?capacity=8&date=2025-04-08T18%3A30%3A00.000Z",
+                        "bookingRedirectUrl": "/meeting-room/payment/room-list/apeejay-business-centre-the-park?capacity=8&date=2025-04-08T18%3A30%3A00.000Z"
+                    }
+                ],
+                "cta": {
+                    "data": {
+                        "text": "Book Now"
+                    }
+                },
+                "meetingroominventorygroup": {
+                    "capacity": 8,
+                    "bookingType": "ONLINE_INSTANT",
+                    "pricing": {
+                        "pricePerHour": 799,
+                        "offerPricePerHour": 600,
+                        "offerMessage": "Use MEETINGQ25"
+                    },
+                    "nextAvailableDate": "2025-04-08T18:30:00.000Z"
+                }
+            },
+            {
+                "_id": "64d475ef674d710a8d0c4de1",
+                "name": "Awfis",
+                "buildingName": "N Heights",
+                "slug": "awfis-n-heights-3",
+                "location": "HITEC City",
+                "city": "Hyderabad",
+                "region": "Hyderabad",
+                "spaceType": "coworking",
+                "directions": {
+                    "connectivityDetails": [
+                        {
+                            "connectivityType": "METRO",
+                            "station": "Raidurg",
+                            "lineName": "Blue",
+                            "distance": 1400,
+                            "icon": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/metroicons/hyderabad-metro-blue.svg"
+                        }
+                    ]
+                },
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        78.37112622612577,
+                        17.45175247536433
+                    ]
+                },
+                "isFavouritedWorkspace": false,
+                "meetingroomworkspace": {
+                    "blockReserve": false,
+                    "timings": "08:00 am to 08:00 pm - Monday to Saturday",
+                    "allowBookings": true,
+                    "status": "LIVE",
+                    "amenities": [
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b66",
+                            "details": [],
+                            "description": "Mini nooks with access to microwave, beverage stations and water coolers"
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b84",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb256203498312f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983130",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983131",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccb42bb256203498313e",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccc22bb256203498313f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccc22bb2562034983140",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199db",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e2",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e3",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e4",
+                            "details": []
+                        }
+                    ],
+                    "popularityScore": 9,
+                    "tags": {
+                        "social": [
+                            {
+                                "id": "POPULAR_WORKSPACE",
+                                "data": {
+                                    "text": "Popular",
+                                    "icon": {
+                                        "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/assets/popularity-tag.svg",
+                                        "alt": "Popular Tag"
+                                    }
+                                }
+                            }
+                        ],
+                        "product": [],
+                        "offer": []
+                    }
+                },
+                "meetingroominventories": [
+                    {
+                        "_id": "6527ae50062732ba2dfada12",
+                        "capacity": "8",
+                        "images": [
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/awfis-n-heights-3/meeting-room/plans/8-seater/suv9ya.jpg",
+                                "alt": "Awfis meeting rooms in HITEC City, Hyderabad"
+                            },
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/awfis-n-heights-3/meeting-room/plans/8-seater/paw5ga.jpg",
+                                "alt": "Awfis conference rooms in HITEC City, Hyderabad"
+                            }
+                        ],
+                        "equipments": [
+                            {
+                                "id": "MONITOR_TV",
+                                "title": "Monitor/TV",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/monitor_tv.svg",
+                                    "alt": "Monitor/TV"
+                                }
+                            },
+                            {
+                                "id": "WHITEBOARD",
+                                "title": "Whiteboard",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/whiteboard.svg",
+                                    "alt": "Whiteboard"
+                                }
+                            },
+                            {
+                                "id": "WIFI",
+                                "title": "Wifi",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/wifi.svg",
+                                    "alt": "Wifi"
+                                }
+                            }
+                        ],
+                        "usecases": [
+                            "Board Meeting/Presentation",
+                            "Interviews",
+                            "Brainstorming"
+                        ],
+                        "pricePerHour": 1200,
+                        "unitIds": [
+                            "6527ae50062732ba2dfada12",
+                            "6527ae55062732ba2dfada15"
+                        ],
+                        "state": "ACTIVE",
+                        "bookingType": "ONLINE_INSTANT",
+                        "redirectUrl": "/meeting-room/awfis-n-heights-3?capacity=8&date=2025-04-08T18%3A30%3A00.000Z",
+                        "bookingRedirectUrl": "/meeting-room/payment/room-list/awfis-n-heights-3?capacity=8&date=2025-04-08T18%3A30%3A00.000Z"
+                    }
+                ],
+                "cta": {
+                    "data": {
+                        "text": "Book Now"
+                    }
+                },
+                "meetingroominventorygroup": {
+                    "capacity": 8,
+                    "bookingType": "ONLINE_INSTANT",
+                    "pricing": {
+                        "pricePerHour": 1200
+                    },
+                    "nextAvailableDate": "2025-04-08T18:30:00.000Z"
+                }
+            },
+            {
+                "_id": "60b1398723807b014e504c44",
+                "name": "Awfis",
+                "buildingName": "Rajapushpa Summit",
+                "slug": "awfis-rajapushpa-summit",
+                "location": "Gachibowli",
+                "city": "Hyderabad",
+                "region": "Hyderabad",
+                "spaceType": "coworking",
+                "directions": {
+                    "connectivityDetails": []
+                },
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        78.33923512612535,
+                        17.423212428421035
+                    ]
+                },
+                "isFavouritedWorkspace": false,
+                "meetingroomworkspace": {
+                    "blockReserve": false,
+                    "timings": "08:00 am to 08:00 pm - Monday to Saturday",
+                    "allowBookings": true,
+                    "status": "LIVE",
+                    "amenities": [
+                        {
+                            "amenity": "6412cc7c2bb256203498312f",
+                            "isPaid": false,
+                            "details": [
+                                "Instant"
+                            ]
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983130",
+                            "isPaid": false,
+                            "details": [
+                                "Instant"
+                            ]
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983131",
+                            "details": [
+                                "RO Water"
+                            ]
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b66",
+                            "details": [
+                                "Refrigerator"
+                            ],
+                            "description": "Mini nooks with access to microwave, beverage stations and water coolers"
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199db",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccb42bb256203498313e",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b84",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccc22bb256203498313f",
+                            "isPaid": true,
+                            "details": [
+                                "Limited Parking"
+                            ]
+                        },
+                        {
+                            "amenity": "6412ccc22bb2562034983140",
+                            "isPaid": true,
+                            "details": [
+                                "Limited Parking"
+                            ]
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e2",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e3",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e4",
+                            "details": []
+                        }
+                    ],
+                    "popularityScore": 9,
+                    "tags": {
+                        "social": [
+                            {
+                                "id": "POPULAR_WORKSPACE",
+                                "data": {
+                                    "text": "Popular",
+                                    "icon": {
+                                        "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/assets/popularity-tag.svg",
+                                        "alt": "Popular Tag"
+                                    }
+                                }
+                            }
+                        ],
+                        "product": [],
+                        "offer": []
+                    }
+                },
+                "meetingroominventories": [
+                    {
+                        "_id": "6527b7a3062732ba2dfb3bfc",
+                        "capacity": "9",
+                        "images": [
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/cbqedesjskzgkyqbactg.jpg",
+                                "alt": "Awfis meeting rooms in Gachibowli, Hyderabad"
+                            }
+                        ],
+                        "equipments": [
+                            {
+                                "id": "MONITOR_TV",
+                                "title": "Monitor/TV",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/monitor_tv.svg",
+                                    "alt": "Monitor/TV"
+                                }
+                            },
+                            {
+                                "id": "WIFI",
+                                "title": "Wifi",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/wifi.svg",
+                                    "alt": "Wifi"
+                                }
+                            }
+                        ],
+                        "usecases": [
+                            "Board Meeting/Presentation",
+                            "Interviews"
+                        ],
+                        "pricePerHour": 1500,
+                        "unitIds": [
+                            "6527b7a3062732ba2dfb3bfc"
+                        ],
+                        "state": "ACTIVE",
+                        "bookingType": "ONLINE_INSTANT",
+                        "redirectUrl": "/meeting-room/awfis-rajapushpa-summit?capacity=9&date=2025-04-08T18%3A30%3A00.000Z",
+                        "bookingRedirectUrl": "/meeting-room/payment/room-list/awfis-rajapushpa-summit?capacity=9&date=2025-04-08T18%3A30%3A00.000Z"
+                    }
+                ],
+                "cta": {
+                    "data": {
+                        "text": "Book Now"
+                    }
+                },
+                "meetingroominventorygroup": {
+                    "capacity": 9,
+                    "bookingType": "ONLINE_INSTANT",
+                    "pricing": {
+                        "pricePerHour": 1500
+                    },
+                    "nextAvailableDate": "2025-04-08T18:30:00.000Z"
+                }
+            },
+            {
+                "_id": "60b1398923807b014e504c4a",
+                "name": "Awfis",
+                "buildingName": "Taj Deccan Hotel",
+                "slug": "awfis-taj-deccan-hotel",
+                "location": "Banjara Hills",
+                "city": "Hyderabad",
+                "region": "Hyderabad",
+                "spaceType": "coworking",
+                "directions": {
+                    "connectivityDetails": [
+                        {
+                            "connectivityType": "METRO",
+                            "station": "Irrum Manzil",
+                            "lineName": "Red",
+                            "distance": 1100,
+                            "icon": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/metroicons/hyderabad-metro-red.svg"
+                        }
+                    ]
+                },
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        78.45056722612526,
+                        17.418232507063635
+                    ]
+                },
+                "isFavouritedWorkspace": false,
+                "meetingroomworkspace": {
+                    "blockReserve": false,
+                    "timings": "08:00 am to 08:00 pm - Monday to Saturday",
+                    "allowBookings": true,
+                    "status": "LIVE",
+                    "amenities": [
+                        {
+                            "amenity": "6412cc7c2bb256203498312f",
+                            "isPaid": false,
+                            "details": [
+                                "Instant"
+                            ]
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983130",
+                            "isPaid": false,
+                            "details": [
+                                "Instant"
+                            ]
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983131",
+                            "details": [
+                                "RO Water"
+                            ]
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b66",
+                            "details": [
+                                "Refrigerator"
+                            ],
+                            "description": "Mini nooks with access to microwave, beverage stations and water coolers"
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199db",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccb42bb256203498313e",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b84",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccc22bb256203498313f",
+                            "isPaid": true,
+                            "details": [
+                                "Limited Parking"
+                            ]
+                        },
+                        {
+                            "amenity": "6412ccc22bb2562034983140",
+                            "isPaid": true,
+                            "details": [
+                                "Limited Parking"
+                            ]
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e2",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e3",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e4",
+                            "details": []
+                        }
+                    ],
+                    "popularityScore": 9,
+                    "tags": {
+                        "social": [
+                            {
+                                "id": "POPULAR_WORKSPACE",
+                                "data": {
+                                    "text": "Popular",
+                                    "icon": {
+                                        "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/assets/popularity-tag.svg",
+                                        "alt": "Popular Tag"
+                                    }
+                                }
+                            }
+                        ],
+                        "product": [],
+                        "offer": []
+                    }
+                },
+                "meetingroominventories": [
+                    {
+                        "_id": "6527bd5c062732ba2dfb9097",
+                        "capacity": "6",
+                        "images": [
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/awfis-taj-deccan-hotel/meeting-room/plans/6-seater/j8duhv.jpg",
+                                "alt": "Awfis meeting rooms in Banjara Hills, Hyderabad"
+                            }
+                        ],
+                        "equipments": [
+                            {
+                                "id": "MONITOR_TV",
+                                "title": "Monitor/TV",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/monitor_tv.svg",
+                                    "alt": "Monitor/TV"
+                                }
+                            },
+                            {
+                                "id": "WIFI",
+                                "title": "Wifi",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/wifi.svg",
+                                    "alt": "Wifi"
+                                }
+                            }
+                        ],
+                        "usecases": [
+                            "Board Meeting/Presentation",
+                            "Interviews"
+                        ],
+                        "pricePerHour": 1000,
+                        "unitIds": [
+                            "6527bd5c062732ba2dfb9097"
+                        ],
+                        "state": "ACTIVE",
+                        "bookingType": "ONLINE_INSTANT",
+                        "redirectUrl": "/meeting-room/awfis-taj-deccan-hotel?capacity=6&date=2025-04-08T18%3A30%3A00.000Z",
+                        "bookingRedirectUrl": "/meeting-room/payment/room-list/awfis-taj-deccan-hotel?capacity=6&date=2025-04-08T18%3A30%3A00.000Z"
+                    }
+                ],
+                "cta": {
+                    "data": {
+                        "text": "Book Now"
+                    }
+                },
+                "meetingroominventorygroup": {
+                    "capacity": 6,
+                    "bookingType": "ONLINE_INSTANT",
+                    "pricing": {
+                        "pricePerHour": 1000
+                    },
+                    "nextAvailableDate": "2025-04-08T18:30:00.000Z"
+                }
+            },
+            {
+                "_id": "60e990d1356ef88660a34f1c",
+                "name": "Oyo Workflo",
+                "buildingName": "Bizness Square",
+                "slug": "oyo-workflo-bizness-square",
+                "location": "HITEC City",
+                "city": "Hyderabad",
+                "region": "Hyderabad",
+                "spaceType": "coworking",
+                "directions": {
+                    "connectivityDetails": [
+                        {
+                            "icon": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/metroicons/hyderabad-metro-blue.svg",
+                            "station": "HITEC City",
+                            "lineName": "Blue",
+                            "distance": 800,
+                            "connectivityType": "METRO"
+                        }
+                    ]
+                },
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        78.37395486680775,
+                        17.45667992609518
+                    ]
+                },
+                "isFavouritedWorkspace": false,
+                "meetingroomworkspace": {
+                    "blockReserve": false,
+                    "timings": "08:00 am to 08:00 pm - Monday to Saturday",
+                    "allowBookings": true,
+                    "status": "LIVE",
+                    "amenities": [
+                        {
+                            "amenity": "6412ccc22bb256203498313f",
+                            "isPaid": true,
+                            "details": [],
+                            "description": "Parking is subject to availability"
+                        },
+                        {
+                            "amenity": "6412ccc22bb2562034983140",
+                            "isPaid": true,
+                            "details": [],
+                            "description": "Parking is subject to availability"
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b7b",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb256203498312f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983130",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983131",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b66",
+                            "details": [],
+                            "description": "Mini nooks with access to microwave, beverage stations and water coolers"
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199db",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccb42bb256203498313e",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b84",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b59",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b8d",
+                            "isPaid": false,
+                            "details": [],
+                            "description": "Personal storage space to lock-up your workspace essentials."
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b6b",
+                            "details": [],
+                            "description": "Open-layout lunch area with comfortable seating to enjoy your meals. "
+                        }
+                    ],
+                    "popularityScore": 9,
+                    "tags": {
+                        "social": [
+                            {
+                                "id": "POPULAR_WORKSPACE",
+                                "data": {
+                                    "text": "Popular",
+                                    "icon": {
+                                        "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/assets/popularity-tag.svg",
+                                        "alt": "Popular Tag"
+                                    }
+                                }
+                            }
+                        ],
+                        "product": [],
+                        "offer": [
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "50% "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "OFF "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "on "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "your "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "first "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "booking."
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": " Use"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " MYHQ50"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "50% "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "OFF "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "on "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "your "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "first "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "booking. "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Use "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "FIRSTMR50"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "20% "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "OFF "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "on "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Oyo "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "innov8 "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "bookings "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "every "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Wednesdays. "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Use "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "MIDWEEK20 "
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "20% "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "OFF "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "on "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "this "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "workspace "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "every "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Saturday. "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Use. "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "SATURDAYS20 "
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "meetingroominventories": [
+                    {
+                        "_id": "6675722f02899e6465ef15d6",
+                        "capacity": "6",
+                        "images": [
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/oyo-workflo-bizness-square/meeting-room/plans/6-seater/r2jcjk.jpg",
+                                "alt": "Oyo Workflo meeting rooms in HITEC City, Hyderabad"
+                            }
+                        ],
+                        "equipments": [
+                            {
+                                "id": "MONITOR_TV",
+                                "title": "Monitor/TV",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/monitor_tv.svg",
+                                    "alt": "Monitor/TV"
+                                }
+                            },
+                            {
+                                "id": "WHITEBOARD",
+                                "title": "Whiteboard",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/whiteboard.svg",
+                                    "alt": "Whiteboard"
+                                }
+                            },
+                            {
+                                "id": "WIFI",
+                                "title": "Wifi",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/wifi.svg",
+                                    "alt": "Wifi"
+                                }
+                            }
+                        ],
+                        "usecases": [
+                            "Team Meeting",
+                            "Brainstorming",
+                            "Interviews"
+                        ],
+                        "pricePerHour": 700,
+                        "rackPricePerHour": 800,
+                        "unitIds": [
+                            "6675722f02899e6465ef15d6"
+                        ],
+                        "state": "ACTIVE",
+                        "bookingType": "ONLINE_INSTANT",
+                        "redirectUrl": "/meeting-room/oyo-workflo-bizness-square?capacity=6&date=2025-04-08T18%3A30%3A00.000Z",
+                        "bookingRedirectUrl": "/meeting-room/payment/room-list/oyo-workflo-bizness-square?capacity=6&date=2025-04-08T18%3A30%3A00.000Z"
+                    }
+                ],
+                "cta": {
+                    "data": {
+                        "text": "Book Now"
+                    }
+                },
+                "meetingroominventorygroup": {
+                    "capacity": 6,
+                    "bookingType": "ONLINE_INSTANT",
+                    "pricing": {
+                        "pricePerHour": 700,
+                        "rackPricePerHour": 800,
+                        "offerPricePerHour": 450,
+                        "offerMessage": "Use MYHQ50"
+                    },
+                    "nextAvailableDate": "2025-04-08T18:30:00.000Z"
+                }
+            },
+            {
+                "_id": "64799bbc34acdc7909fb9d12",
+                "name": "Apeejay Business Centre",
+                "buildingName": "The Park",
+                "slug": "apeejay-business-centre-the-park",
+                "location": "Somajiguda",
+                "city": "Hyderabad",
+                "region": "Hyderabad",
+                "spaceType": "coworking",
+                "directions": {
+                    "connectivityDetails": []
+                },
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        78.46247725081916,
+                        17.42377398813855
+                    ]
+                },
+                "isFavouritedWorkspace": false,
+                "meetingroomworkspace": {
+                    "blockReserve": false,
+                    "timings": "10:00 am to 07:00 pm - Monday to Saturday",
+                    "allowBookings": true,
+                    "status": "LIVE",
+                    "amenities": [
+                        {
+                            "amenity": "6412ccc22bb256203498313f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccc22bb2562034983140",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b78",
+                            "isPaid": false,
+                            "details": [],
+                            "description": ""
+                        },
+                        {
+                            "amenity": "6412cc7c2bb256203498312f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983130",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983131",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b66",
+                            "details": [],
+                            "description": "Mini nooks with access to microwave, beverage stations and water coolers"
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199db",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccb42bb256203498313e",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b84",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e2",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e3",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e4",
+                            "details": []
+                        }
+                    ],
+                    "popularityScore": 9,
+                    "tags": {
+                        "social": [
+                            {
+                                "id": "POPULAR_WORKSPACE",
+                                "data": {
+                                    "text": "Popular",
+                                    "icon": {
+                                        "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/assets/popularity-tag.svg",
+                                        "alt": "Popular Tag"
+                                    }
+                                }
+                            }
+                        ],
+                        "product": [],
+                        "offer": [
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " 25% off"
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": " on your Apeejay Meeting room using coupon"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " MEETINGQ25"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " 15% off"
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": " on your Apeejay Meeting room every Monday using coupon"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " APEEJAYMON15"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " 20% off"
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": " on your Apeejay Meeting room every Saturday coupon"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " APEEJAYSAT20"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "meetingroominventories": [
+                    {
+                        "_id": "67c6a4896c968e09b0ae110d",
+                        "capacity": "6",
+                        "images": [
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/apeejay-business-centre-the-park/meeting-room/plans/6-seater/b2hf8y.jpg",
+                                "alt": "Apeejay Business Centre meeting rooms in Somajiguda, Hyderabad"
+                            }
+                        ],
+                        "equipments": [
+                            {
+                                "id": "MONITOR_TV",
+                                "title": "Monitor/TV",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/monitor_tv.svg",
+                                    "alt": "Monitor/TV"
+                                }
+                            },
+                            {
+                                "id": "PROJECTOR",
+                                "title": "Projector",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/projector.svg",
+                                    "alt": "Projector"
+                                }
+                            },
+                            {
+                                "id": "SPEAKERS",
+                                "title": "Speakers",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/speakers.svg",
+                                    "alt": "Speakers"
+                                }
+                            },
+                            {
+                                "id": "VIDEO_CONFERENCE",
+                                "title": "Video Conference",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/video_conference.svg",
+                                    "alt": "Video Conference"
+                                }
+                            },
+                            {
+                                "id": "WHITEBOARD",
+                                "title": "Whiteboard",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/whiteboard.svg",
+                                    "alt": "Whiteboard"
+                                }
+                            },
+                            {
+                                "id": "WIFI",
+                                "title": "Wifi",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/wifi.svg",
+                                    "alt": "Wifi"
+                                }
+                            }
+                        ],
+                        "usecases": [
+                            "Team Meeting",
+                            "Brainstorming",
+                            "Interviews"
+                        ],
+                        "pricePerHour": 499,
+                        "unitIds": [
+                            "67c6a4896c968e09b0ae110d"
+                        ],
+                        "state": "ACTIVE",
+                        "bookingType": "ONLINE_INSTANT",
+                        "redirectUrl": "/meeting-room/apeejay-business-centre-the-park?capacity=6&date=2025-04-08T18%3A30%3A00.000Z",
+                        "bookingRedirectUrl": "/meeting-room/payment/room-list/apeejay-business-centre-the-park?capacity=6&date=2025-04-08T18%3A30%3A00.000Z"
+                    }
+                ],
+                "cta": {
+                    "data": {
+                        "text": "Book Now"
+                    }
+                },
+                "meetingroominventorygroup": {
+                    "capacity": 6,
+                    "bookingType": "ONLINE_INSTANT",
+                    "pricing": {
+                        "pricePerHour": 499,
+                        "offerPricePerHour": 375,
+                        "offerMessage": "Use MEETINGQ25"
+                    },
+                    "nextAvailableDate": "2025-04-08T18:30:00.000Z"
+                }
+            },
+            {
+                "_id": "6698e60bf7ed7553d5f1b956",
+                "name": "Awfis",
+                "buildingName": "Prestige Skytech",
+                "slug": "awfis-prestige-skytech",
+                "location": "Financial District",
+                "city": "Hyderabad",
+                "region": "Hyderabad",
+                "spaceType": "coworking",
+                "directions": {
+                    "connectivityDetails": []
+                },
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        78.33859349360841,
+                        17.41417640213807
+                    ]
+                },
+                "isFavouritedWorkspace": false,
+                "meetingroomworkspace": {
+                    "blockReserve": false,
+                    "timings": "09:00 am to 08:00 pm - Monday to Saturday",
+                    "allowBookings": true,
+                    "status": "LIVE",
+                    "amenities": [
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b66",
+                            "details": [],
+                            "description": "Mini nooks with access to microwave, beverage stations and water coolers"
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b84",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb256203498312f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983130",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983131",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccb42bb256203498313e",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccc22bb256203498313f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccc22bb2562034983140",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199db",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e2",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e3",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e4",
+                            "details": []
+                        }
+                    ],
+                    "popularityScore": 8,
+                    "tags": {
+                        "social": [
+                            {
+                                "id": "POPULAR_WORKSPACE",
+                                "data": {
+                                    "text": "Popular",
+                                    "icon": {
+                                        "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/assets/popularity-tag.svg",
+                                        "alt": "Popular Tag"
+                                    }
+                                }
+                            }
+                        ],
+                        "product": [],
+                        "offer": []
+                    }
+                },
+                "meetingroominventories": [
+                    {
+                        "_id": "6698e63ff7ed7553d5f1c0a2",
+                        "capacity": "8",
+                        "images": [
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/awfis-prestige-skytech/meeting-room/plans/8-seater/fasyjx.jpg",
+                                "alt": "Awfis meeting rooms in Financial District, Hyderabad"
+                            }
+                        ],
+                        "equipments": [
+                            {
+                                "id": "MONITOR_TV",
+                                "title": "Monitor/TV",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/monitor_tv.svg",
+                                    "alt": "Monitor/TV"
+                                }
+                            },
+                            {
+                                "id": "WHITEBOARD",
+                                "title": "Whiteboard",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/whiteboard.svg",
+                                    "alt": "Whiteboard"
+                                }
+                            },
+                            {
+                                "id": "WIFI",
+                                "title": "Wifi",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/wifi.svg",
+                                    "alt": "Wifi"
+                                }
+                            }
+                        ],
+                        "usecases": [
+                            "Team Meeting",
+                            "Brainstorming",
+                            "Interviews"
+                        ],
+                        "pricePerHour": 1200,
+                        "unitIds": [
+                            "6698e63ff7ed7553d5f1c0a2"
+                        ],
+                        "state": "ACTIVE",
+                        "bookingType": "ONLINE_INSTANT",
+                        "redirectUrl": "/meeting-room/awfis-prestige-skytech?capacity=8&date=2025-04-08T18%3A30%3A00.000Z",
+                        "bookingRedirectUrl": "/meeting-room/payment/room-list/awfis-prestige-skytech?capacity=8&date=2025-04-08T18%3A30%3A00.000Z"
+                    }
+                ],
+                "cta": {
+                    "data": {
+                        "text": "Book Now"
+                    }
+                },
+                "meetingroominventorygroup": {
+                    "capacity": 8,
+                    "bookingType": "ONLINE_INSTANT",
+                    "pricing": {
+                        "pricePerHour": 1200
+                    },
+                    "nextAvailableDate": "2025-04-08T18:30:00.000Z"
+                }
+            },
+            {
+                "_id": "60d9fcb6416af78966a94a30",
+                "name": "COWRKS ",
+                "buildingName": "HITECH City , The Skyview 10",
+                "slug": "cowrks-the-skyview",
+                "location": "HITEC City",
+                "city": "Hyderabad",
+                "region": "Hyderabad",
+                "spaceType": "coworking",
+                "directions": {
+                    "metroDetails": [],
+                    "connectivityDetails": [
+                        {
+                            "icon": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/metroicons/hyderabad-metro-blue.svg",
+                            "station": "Raidurg",
+                            "lineName": "Blue",
+                            "distance": 1400,
+                            "connectivityType": "METRO"
+                        }
+                    ]
+                },
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        78.37544011534143,
+                        17.432220483350598
+                    ]
+                },
+                "isFavouritedWorkspace": false,
+                "meetingroomworkspace": {
+                    "blockReserve": false,
+                    "timings": "09:00 am to 06:00 pm - Monday to Friday",
+                    "allowBookings": true,
+                    "status": "LIVE",
+                    "amenities": [
+                        {
+                            "amenity": "6412ccc22bb256203498313f",
+                            "isPaid": true,
+                            "details": [
+                                "Limited Parking"
+                            ],
+                            "description": ""
+                        },
+                        {
+                            "amenity": "6412ccc22bb2562034983140",
+                            "isPaid": true,
+                            "details": [
+                                "Limited Parking"
+                            ],
+                            "description": ""
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b7b",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb256203498312f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983130",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983131",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc8a2bb2562034983132",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b66",
+                            "details": [],
+                            "description": "Mini nooks with access to microwave, beverage stations and water coolers"
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199db",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccb42bb256203498313e",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b84",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b59",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b8d",
+                            "isPaid": false,
+                            "details": [],
+                            "description": "Personal storage space to lock-up your workspace essentials."
+                        },
+                        {
+                            "amenity": "6412cc9c2bb2562034983137",
+                            "details": [],
+                            "description": "Walk-up to the spacious breakout area to relax, play games and take a breather from work"
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b6b",
+                            "details": [],
+                            "description": "Open-layout lunch area with comfortable seating to enjoy your meals. "
+                        }
+                    ],
+                    "popularityScore": 10,
+                    "tags": {
+                        "social": [
+                            {
+                                "id": "POPULAR_WORKSPACE",
+                                "data": {
+                                    "text": "Popular",
+                                    "icon": {
+                                        "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/assets/popularity-tag.svg",
+                                        "alt": "Popular Tag"
+                                    }
+                                }
+                            }
+                        ],
+                        "product": [],
+                        "offer": [
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " 15% off"
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": " on your COWRKS Meeting room booking using coupon"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " MEET15"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "meetingroominventories": [
+                    {
+                        "_id": "6540db039fe3376eeaaef538",
+                        "capacity": "7",
+                        "images": [
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/cowrks-the-skyview/meeting-room/plans/7-seater/9q9z7j.png",
+                                "alt": "COWRKS  meeting rooms in HITEC City, Hyderabad"
+                            },
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/cowrks-the-skyview/meeting-room/plans/7-seater/7ry9pp.png",
+                                "alt": "COWRKS  conference rooms in HITEC City, Hyderabad"
+                            },
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/cowrks-the-skyview/meeting-room/plans/7-seater/tsvrmb.jpg",
+                                "alt": "COWRKS  training rooms in HITEC City, Hyderabad"
+                            }
+                        ],
+                        "equipments": [
+                            {
+                                "id": "MONITOR_TV",
+                                "title": "Monitor/TV",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/monitor_tv.svg",
+                                    "alt": "Monitor/TV"
+                                }
+                            },
+                            {
+                                "id": "WHITEBOARD",
+                                "title": "Whiteboard",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/whiteboard.svg",
+                                    "alt": "Whiteboard"
+                                }
+                            },
+                            {
+                                "id": "WIFI",
+                                "title": "Wifi",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/wifi.svg",
+                                    "alt": "Wifi"
+                                }
+                            }
+                        ],
+                        "usecases": [
+                            "Board Meeting/Presentation",
+                            "Interviews",
+                            "Brainstorming"
+                        ],
+                        "pricePerHour": 1785,
+                        "rackPricePerHour": 2100,
+                        "unitIds": [
+                            "6540db039fe3376eeaaef538",
+                            "6540db059fe3376eeaaef53d",
+                            "6540db089fe3376eeaaef54a"
+                        ],
+                        "state": "ACTIVE",
+                        "bookingType": "ONLINE_INSTANT",
+                        "redirectUrl": "/meeting-room/cowrks-the-skyview?capacity=7&date=2025-04-08T18%3A30%3A00.000Z",
+                        "bookingRedirectUrl": "/meeting-room/payment/room-list/cowrks-the-skyview?capacity=7&date=2025-04-08T18%3A30%3A00.000Z"
+                    }
+                ],
+                "cta": {
+                    "data": {
+                        "text": "Book Now"
+                    }
+                },
+                "meetingroominventorygroup": {
+                    "capacity": 7,
+                    "bookingType": "ONLINE_INSTANT",
+                    "pricing": {
+                        "pricePerHour": 1785,
+                        "rackPricePerHour": 2100,
+                        "offerPricePerHour": 1518,
+                        "offerMessage": "Use MEET15"
+                    },
+                    "nextAvailableDate": "2025-04-08T18:30:00.000Z"
+                }
+            },
+            {
+                "_id": "676966fa6309e0db6d13910c",
+                "name": "Awfis",
+                "buildingName": "Sarvotham",
+                "slug": "awfis-sarvotham",
+                "location": "HITEC City",
+                "city": "Hyderabad",
+                "region": "Hyderabad",
+                "spaceType": "coworking",
+                "directions": {
+                    "connectivityDetails": []
+                },
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        78.37722781774494,
+                        17.448177463290754
+                    ]
+                },
+                "isFavouritedWorkspace": false,
+                "meetingroomworkspace": {
+                    "blockReserve": false,
+                    "timings": "08:00 am to 08:00 pm - Monday to Saturday",
+                    "allowBookings": true,
+                    "status": "LIVE",
+                    "amenities": [
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b66",
+                            "details": [],
+                            "description": "Mini nooks with access to microwave, beverage stations and water coolers"
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b84",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb256203498312f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983130",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983131",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccb42bb256203498313e",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccc22bb256203498313f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccc22bb2562034983140",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199db",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e2",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e3",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e4",
+                            "details": []
+                        }
+                    ],
+                    "popularityScore": 9,
+                    "tags": {
+                        "social": [
+                            {
+                                "id": "POPULAR_WORKSPACE",
+                                "data": {
+                                    "text": "Popular",
+                                    "icon": {
+                                        "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/assets/popularity-tag.svg",
+                                        "alt": "Popular Tag"
+                                    }
+                                }
+                            }
+                        ],
+                        "product": [],
+                        "offer": []
+                    }
+                },
+                "meetingroominventories": [
+                    {
+                        "_id": "676a74196cdca961281e74d8",
+                        "capacity": "6",
+                        "images": [
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/awfis-sarvotham/meeting-room/plans/6-seater/8n88nq.jpg",
+                                "alt": "Awfis meeting rooms in HITEC City, Hyderabad"
+                            }
+                        ],
+                        "equipments": [
+                            {
+                                "id": "MONITOR_TV",
+                                "title": "Monitor/TV",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/monitor_tv.svg",
+                                    "alt": "Monitor/TV"
+                                }
+                            },
+                            {
+                                "id": "WHITEBOARD",
+                                "title": "Whiteboard",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/whiteboard.svg",
+                                    "alt": "Whiteboard"
+                                }
+                            },
+                            {
+                                "id": "WIFI",
+                                "title": "Wifi",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/wifi.svg",
+                                    "alt": "Wifi"
+                                }
+                            }
+                        ],
+                        "usecases": [
+                            "Team Meeting",
+                            "Brainstorming",
+                            "Interviews"
+                        ],
+                        "pricePerHour": 1100,
+                        "unitIds": [
+                            "676a74196cdca961281e74d8"
+                        ],
+                        "state": "ACTIVE",
+                        "bookingType": "ONLINE_INSTANT",
+                        "redirectUrl": "/meeting-room/awfis-sarvotham?capacity=6&date=2025-04-08T18%3A30%3A00.000Z",
+                        "bookingRedirectUrl": "/meeting-room/payment/room-list/awfis-sarvotham?capacity=6&date=2025-04-08T18%3A30%3A00.000Z"
+                    }
+                ],
+                "cta": {
+                    "data": {
+                        "text": "Book Now"
+                    }
+                },
+                "meetingroominventorygroup": {
+                    "capacity": 6,
+                    "bookingType": "ONLINE_INSTANT",
+                    "pricing": {
+                        "pricePerHour": 1100
+                    },
+                    "nextAvailableDate": "2025-04-08T18:30:00.000Z"
+                }
+            },
+            {
+                "_id": "6620fc2ebf743b258d8424a8",
+                "name": "Awfis",
+                "buildingName": "Aurobindo Orbit",
+                "slug": "awfis-aurobindo-orbit",
+                "location": "HITEC City",
+                "city": "Hyderabad",
+                "region": "Hyderabad",
+                "spaceType": "coworking",
+                "directions": {
+                    "connectivityDetails": [
+                        {
+                            "connectivityType": "METRO",
+                            "icon": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/metroicons/hyderabad-metro-blue.svg",
+                            "distance": 1900,
+                            "station": "Durgam Cheruvu",
+                            "lineName": "Blue"
+                        }
+                    ]
+                },
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        78.37696631903937,
+                        17.435442402043755
+                    ]
+                },
+                "isFavouritedWorkspace": false,
+                "meetingroomworkspace": {
+                    "blockReserve": false,
+                    "timings": "08:00 am to 08:00 pm - Monday to Saturday",
+                    "allowBookings": true,
+                    "status": "LIVE",
+                    "amenities": [
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b66",
+                            "details": [],
+                            "description": "Mini nooks with access to microwave, beverage stations and water coolers"
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b84",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb256203498312f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983130",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983131",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccb42bb256203498313e",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccc22bb256203498313f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccc22bb2562034983140",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199db",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e2",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e3",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e4",
+                            "details": []
+                        }
+                    ],
+                    "popularityScore": 8,
+                    "tags": {
+                        "social": [
+                            {
+                                "id": "POPULAR_WORKSPACE",
+                                "data": {
+                                    "text": "Popular",
+                                    "icon": {
+                                        "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/assets/popularity-tag.svg",
+                                        "alt": "Popular Tag"
+                                    }
+                                }
+                            }
+                        ],
+                        "product": [],
+                        "offer": []
+                    }
+                },
+                "meetingroominventories": [
+                    {
+                        "_id": "669131c37e1a5e25740b2bce",
+                        "capacity": "8",
+                        "images": [
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/awfis-aurobindo-orbit/meeting-room/plans/8-seater/qcfgp3.jpg",
+                                "alt": "Awfis meeting rooms in HITEC City, Hyderabad"
+                            }
+                        ],
+                        "equipments": [
+                            {
+                                "id": "MONITOR_TV",
+                                "title": "Monitor/TV",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/monitor_tv.svg",
+                                    "alt": "Monitor/TV"
+                                }
+                            },
+                            {
+                                "id": "WHITEBOARD",
+                                "title": "Whiteboard",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/whiteboard.svg",
+                                    "alt": "Whiteboard"
+                                }
+                            },
+                            {
+                                "id": "WIFI",
+                                "title": "Wifi",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/wifi.svg",
+                                    "alt": "Wifi"
+                                }
+                            }
+                        ],
+                        "usecases": [
+                            "Team Meeting",
+                            "Brainstorming",
+                            "Interviews"
+                        ],
+                        "pricePerHour": 1200,
+                        "unitIds": [
+                            "669131c37e1a5e25740b2bce"
+                        ],
+                        "state": "ACTIVE",
+                        "bookingType": "ONLINE_INSTANT",
+                        "redirectUrl": "/meeting-room/awfis-aurobindo-orbit?capacity=8&date=2025-04-08T18%3A30%3A00.000Z",
+                        "bookingRedirectUrl": "/meeting-room/payment/room-list/awfis-aurobindo-orbit?capacity=8&date=2025-04-08T18%3A30%3A00.000Z"
+                    }
+                ],
+                "cta": {
+                    "data": {
+                        "text": "Book Now"
+                    }
+                },
+                "meetingroominventorygroup": {
+                    "capacity": 8,
+                    "bookingType": "ONLINE_INSTANT",
+                    "pricing": {
+                        "pricePerHour": 1200
+                    },
+                    "nextAvailableDate": "2025-04-08T18:30:00.000Z"
+                }
+            },
+            {
+                "_id": "60d9fcb6416af78966a94a30",
+                "name": "COWRKS ",
+                "buildingName": "HITECH City , The Skyview 10",
+                "slug": "cowrks-the-skyview",
+                "location": "HITEC City",
+                "city": "Hyderabad",
+                "region": "Hyderabad",
+                "spaceType": "coworking",
+                "directions": {
+                    "metroDetails": [],
+                    "connectivityDetails": [
+                        {
+                            "icon": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/metroicons/hyderabad-metro-blue.svg",
+                            "station": "Raidurg",
+                            "lineName": "Blue",
+                            "distance": 1400,
+                            "connectivityType": "METRO"
+                        }
+                    ]
+                },
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        78.37544011534143,
+                        17.432220483350598
+                    ]
+                },
+                "isFavouritedWorkspace": false,
+                "meetingroomworkspace": {
+                    "blockReserve": false,
+                    "timings": "09:00 am to 06:00 pm - Monday to Friday",
+                    "allowBookings": true,
+                    "status": "LIVE",
+                    "amenities": [
+                        {
+                            "amenity": "6412ccc22bb256203498313f",
+                            "isPaid": true,
+                            "details": [
+                                "Limited Parking"
+                            ],
+                            "description": ""
+                        },
+                        {
+                            "amenity": "6412ccc22bb2562034983140",
+                            "isPaid": true,
+                            "details": [
+                                "Limited Parking"
+                            ],
+                            "description": ""
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b7b",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb256203498312f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983130",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983131",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc8a2bb2562034983132",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b66",
+                            "details": [],
+                            "description": "Mini nooks with access to microwave, beverage stations and water coolers"
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199db",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccb42bb256203498313e",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b84",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b59",
+                            "details": []
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b8d",
+                            "isPaid": false,
+                            "details": [],
+                            "description": "Personal storage space to lock-up your workspace essentials."
+                        },
+                        {
+                            "amenity": "6412cc9c2bb2562034983137",
+                            "details": [],
+                            "description": "Walk-up to the spacious breakout area to relax, play games and take a breather from work"
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b6b",
+                            "details": [],
+                            "description": "Open-layout lunch area with comfortable seating to enjoy your meals. "
+                        }
+                    ],
+                    "popularityScore": 10,
+                    "tags": {
+                        "social": [
+                            {
+                                "id": "POPULAR_WORKSPACE",
+                                "data": {
+                                    "text": "Popular",
+                                    "icon": {
+                                        "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/assets/popularity-tag.svg",
+                                        "alt": "Popular Tag"
+                                    }
+                                }
+                            }
+                        ],
+                        "product": [],
+                        "offer": [
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " 15% off"
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": " on your COWRKS Meeting room booking using coupon"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " MEET15"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "meetingroominventories": [
+                    {
+                        "_id": "6540db0c9fe3376eeaaef559",
+                        "capacity": "12",
+                        "images": [
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/cowrks-the-skyview/meeting-room/plans/12-seater/46yvtn.png",
+                                "alt": "COWRKS  meeting rooms in HITEC City, Hyderabad"
+                            },
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/cowrks-the-skyview/meeting-room/plans/12-seater/ekvp96.png",
+                                "alt": "COWRKS  conference rooms in HITEC City, Hyderabad"
+                            },
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/cowrks-the-skyview/meeting-room/plans/12-seater/hq3v63.jpg",
+                                "alt": "COWRKS  training rooms in HITEC City, Hyderabad"
+                            },
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/cowrks-the-skyview/meeting-room/plans/12-seater/ucjth4.jpg",
+                                "alt": "COWRKS  board rooms in HITEC City, Hyderabad"
+                            }
+                        ],
+                        "equipments": [
+                            {
+                                "id": "MONITOR_TV",
+                                "title": "Monitor/TV",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/monitor_tv.svg",
+                                    "alt": "Monitor/TV"
+                                }
+                            },
+                            {
+                                "id": "WHITEBOARD",
+                                "title": "Whiteboard",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/whiteboard.svg",
+                                    "alt": "Whiteboard"
+                                }
+                            },
+                            {
+                                "id": "WIFI",
+                                "title": "Wifi",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/wifi.svg",
+                                    "alt": "Wifi"
+                                }
+                            }
+                        ],
+                        "usecases": [
+                            "Board Meeting/Presentation",
+                            "Interviews",
+                            "Brainstorming",
+                            "Workshops/Training",
+                            "Team Meeting"
+                        ],
+                        "pricePerHour": 3060,
+                        "rackPricePerHour": 3600,
+                        "unitIds": [
+                            "6540db0c9fe3376eeaaef559",
+                            "6540db0f9fe3376eeaaef586",
+                            "6707b99b79e2f577b06776be"
+                        ],
+                        "state": "ACTIVE",
+                        "bookingType": "ONLINE_INSTANT",
+                        "redirectUrl": "/meeting-room/cowrks-the-skyview?capacity=12&date=2025-04-08T18%3A30%3A00.000Z",
+                        "bookingRedirectUrl": "/meeting-room/payment/room-list/cowrks-the-skyview?capacity=12&date=2025-04-08T18%3A30%3A00.000Z"
+                    }
+                ],
+                "cta": {
+                    "data": {
+                        "text": "Book Now"
+                    }
+                },
+                "meetingroominventorygroup": {
+                    "capacity": 12,
+                    "bookingType": "ONLINE_INSTANT",
+                    "pricing": {
+                        "pricePerHour": 3060,
+                        "rackPricePerHour": 3600,
+                        "offerPricePerHour": 2601,
+                        "offerMessage": "Use MEET15"
+                    },
+                    "nextAvailableDate": "2025-04-08T18:30:00.000Z"
+                }
+            },
+            {
+                "_id": "6538b98222985f5dee0e3dc5",
+                "name": "WeWork",
+                "buildingName": "RMZ Spire",
+                "slug": "wework-rmz-spire-hiteccity",
+                "location": "HITEC City",
+                "city": "Hyderabad",
+                "region": "Hyderabad",
+                "spaceType": "coworking",
+                "directions": {
+                    "connectivityDetails": []
+                },
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        78.384501784923,
+                        17.433226610720318
+                    ]
+                },
+                "isFavouritedWorkspace": false,
+                "meetingroomworkspace": {
+                    "blockReserve": false,
+                    "timings": "09:00 am to 06:00 pm - Monday to Friday",
+                    "allowBookings": true,
+                    "status": "LIVE",
+                    "amenities": [
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b66",
+                            "details": [],
+                            "description": "Mini nooks with access to microwave, beverage stations and water coolers"
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b6b",
+                            "details": [],
+                            "description": "Open-layout lunch area with comfortable seating to enjoy your meals. "
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b84",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb256203498312f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983130",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983131",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc8a2bb2562034983132",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc9c2bb2562034983137",
+                            "details": [],
+                            "description": "Walk-up to the spacious breakout area to relax, play games and take a breather from work"
+                        },
+                        {
+                            "amenity": "6412ccb42bb256203498313e",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccc22bb256203498313f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccc22bb2562034983140",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199db",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e2",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e3",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e4",
+                            "details": []
+                        }
+                    ],
+                    "popularityScore": 8,
+                    "tags": {
+                        "social": [
+                            {
+                                "id": "POPULAR_WORKSPACE",
+                                "data": {
+                                    "text": "Popular",
+                                    "icon": {
+                                        "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/assets/popularity-tag.svg",
+                                        "alt": "Popular Tag"
+                                    }
+                                }
+                            }
+                        ],
+                        "product": [],
+                        "offer": [
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "50% "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "OFF "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "on "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "your "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "first "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "booking."
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": " Use"
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": " MYHQ50"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "50% "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "OFF "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "on "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "your "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "first "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "booking. "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Use "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "FIRSTMR50"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "20% "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "OFF "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "on "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "WeWork "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "bookings "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "every "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Thursdays "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "& "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Fridays "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Use. "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "GETWW20 "
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "content": [
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Get "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "20% "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "OFF "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "on "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "this "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "workspace "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "every "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Saturday. "
+                                        }
+                                    },
+                                    {
+                                        "type": "TEXT",
+                                        "data": {
+                                            "text": "Use. "
+                                        }
+                                    },
+                                    {
+                                        "type": "BOLD",
+                                        "data": {
+                                            "text": "SATURDAYS20 "
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "meetingroominventories": [
+                    {
+                        "_id": "65e1ab8ce7dd5c75e7fb5591",
+                        "capacity": "6",
+                        "images": [
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/wework-rmz-spire-hiteccity/meeting-room/plans/6-seater/6wuj38.jpg",
+                                "alt": "WeWork meeting rooms in HITEC City, Hyderabad"
+                            },
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/wework-rmz-spire-hiteccity/meeting-room/plans/6-seater/m4e8a2.jpg",
+                                "alt": "WeWork conference rooms in HITEC City, Hyderabad"
+                            },
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/wework-rmz-spire-hiteccity/meeting-room/plans/6-seater/kkthda.jpg",
+                                "alt": "WeWork training rooms in HITEC City, Hyderabad"
+                            }
+                        ],
+                        "equipments": [
+                            {
+                                "id": "MONITOR_TV",
+                                "title": "Monitor/TV",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/monitor_tv.svg",
+                                    "alt": "Monitor/TV"
+                                }
+                            },
+                            {
+                                "id": "WHITEBOARD",
+                                "title": "Whiteboard",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/whiteboard.svg",
+                                    "alt": "Whiteboard"
+                                }
+                            },
+                            {
+                                "id": "VIDEO_CONFERENCE",
+                                "title": "Video Conference",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/video_conference.svg",
+                                    "alt": "Video Conference"
+                                }
+                            },
+                            {
+                                "id": "WIFI",
+                                "title": "Wifi",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/wifi.svg",
+                                    "alt": "Wifi"
+                                }
+                            }
+                        ],
+                        "usecases": [
+                            "Board Meeting/Presentation",
+                            "Interviews",
+                            "Brainstorming"
+                        ],
+                        "pricePerHour": 1500,
+                        "unitIds": [
+                            "65e1ab8ce7dd5c75e7fb5591",
+                            "65e1ab8ce7dd5c75e7fb5593",
+                            "65e1ab8ce7dd5c75e7fb5595",
+                            "65e1ab8ce7dd5c75e7fb5597"
+                        ],
+                        "state": "ACTIVE",
+                        "bookingType": "ONLINE_INSTANT",
+                        "redirectUrl": "/meeting-room/wework-rmz-spire-hiteccity?capacity=6&date=2025-04-08T18%3A30%3A00.000Z",
+                        "bookingRedirectUrl": "/meeting-room/payment/room-list/wework-rmz-spire-hiteccity?capacity=6&date=2025-04-08T18%3A30%3A00.000Z"
+                    }
+                ],
+                "cta": {
+                    "data": {
+                        "text": "Book Now"
+                    }
+                },
+                "meetingroominventorygroup": {
+                    "capacity": 6,
+                    "bookingType": "ONLINE_INSTANT",
+                    "pricing": {
+                        "pricePerHour": 1500,
+                        "offerPricePerHour": 1250,
+                        "offerMessage": "Use MYHQ50"
+                    },
+                    "nextAvailableDate": "2025-04-08T18:30:00.000Z"
+                }
+            },
+            {
+                "_id": "63f3773431c3f78d1d462e4d",
+                "name": "Awfis",
+                "buildingName": "DSL Abacus IT Park",
+                "slug": "awfis-uppal",
+                "location": "Uppal",
+                "city": "Hyderabad",
+                "region": "Hyderabad",
+                "spaceType": "coworking",
+                "directions": {
+                    "connectivityDetails": []
+                },
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        78.55540808465868,
+                        17.400860286833797
+                    ]
+                },
+                "isFavouritedWorkspace": false,
+                "meetingroomworkspace": {
+                    "blockReserve": false,
+                    "timings": "08:00 am to 08:00 pm - Monday to Saturday",
+                    "allowBookings": true,
+                    "status": "LIVE",
+                    "amenities": [
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b66",
+                            "details": [],
+                            "description": "Mini nooks with access to microwave, beverage stations and water coolers"
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b84",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb256203498312f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983130",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983131",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccb42bb256203498313e",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199db",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e2",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e3",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e4",
+                            "details": []
+                        }
+                    ],
+                    "popularityScore": 8,
+                    "tags": {
+                        "social": [
+                            {
+                                "id": "POPULAR_WORKSPACE",
+                                "data": {
+                                    "text": "Popular",
+                                    "icon": {
+                                        "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/assets/popularity-tag.svg",
+                                        "alt": "Popular Tag"
+                                    }
+                                }
+                            }
+                        ],
+                        "product": [],
+                        "offer": []
+                    }
+                },
+                "meetingroominventories": [
+                    {
+                        "_id": "669132187e1a5e25740b302f",
+                        "capacity": "6",
+                        "images": [
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/awfis-uppal/meeting-room/plans/6-seater/axd527.jpg",
+                                "alt": "Awfis meeting rooms in Uppal, Hyderabad"
+                            }
+                        ],
+                        "equipments": [
+                            {
+                                "id": "MONITOR_TV",
+                                "title": "Monitor/TV",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/monitor_tv.svg",
+                                    "alt": "Monitor/TV"
+                                }
+                            },
+                            {
+                                "id": "WHITEBOARD",
+                                "title": "Whiteboard",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/whiteboard.svg",
+                                    "alt": "Whiteboard"
+                                }
+                            },
+                            {
+                                "id": "WIFI",
+                                "title": "Wifi",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/wifi.svg",
+                                    "alt": "Wifi"
+                                }
+                            }
+                        ],
+                        "usecases": [
+                            "Team Meeting",
+                            "Brainstorming",
+                            "Interviews"
+                        ],
+                        "pricePerHour": 800,
+                        "unitIds": [
+                            "669132187e1a5e25740b302f"
+                        ],
+                        "state": "ACTIVE",
+                        "bookingType": "ONLINE_INSTANT",
+                        "redirectUrl": "/meeting-room/awfis-uppal?capacity=6&date=2025-04-08T18%3A30%3A00.000Z",
+                        "bookingRedirectUrl": "/meeting-room/payment/room-list/awfis-uppal?capacity=6&date=2025-04-08T18%3A30%3A00.000Z"
+                    }
+                ],
+                "cta": {
+                    "data": {
+                        "text": "Book Now"
+                    }
+                },
+                "meetingroominventorygroup": {
+                    "capacity": 6,
+                    "bookingType": "ONLINE_INSTANT",
+                    "pricing": {
+                        "pricePerHour": 800
+                    },
+                    "nextAvailableDate": "2025-04-08T18:30:00.000Z"
+                }
+            },
+            {
+                "_id": "60b1398623807b014e504c3d",
+                "name": "Awfis",
+                "buildingName": "N Heights",
+                "slug": "awfis-n-heights",
+                "location": "HITEC City",
+                "city": "Hyderabad",
+                "region": "Hyderabad",
+                "spaceType": "coworking",
+                "directions": {
+                    "connectivityDetails": [
+                        {
+                            "icon": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/metroicons/hyderabad-metro-blue.svg",
+                            "station": "Raidurg",
+                            "lineName": "Blue",
+                            "distance": 1400,
+                            "connectivityType": "METRO"
+                        }
+                    ]
+                },
+                "loc": {
+                    "type": "Point",
+                    "coordinates": [
+                        78.37112622612577,
+                        17.45175247536433
+                    ]
+                },
+                "isFavouritedWorkspace": false,
+                "meetingroomworkspace": {
+                    "blockReserve": false,
+                    "timings": "08:00 am to 08:00 pm - Monday to Saturday",
+                    "allowBookings": true,
+                    "status": "LIVE",
+                    "amenities": [
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b66",
+                            "details": [],
+                            "description": "Mini nooks with access to microwave, beverage stations and water coolers"
+                        },
+                        {
+                            "amenity": "5eeb456afe3dac48253f0b84",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb256203498312f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983130",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cc7c2bb2562034983131",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccb42bb256203498313e",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccc22bb256203498313f",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412ccc22bb2562034983140",
+                            "isPaid": false,
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199db",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e2",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e3",
+                            "details": []
+                        },
+                        {
+                            "amenity": "6412cd0154d14f219f4199e4",
+                            "details": []
+                        }
+                    ],
+                    "popularityScore": 9,
+                    "tags": {
+                        "social": [
+                            {
+                                "id": "POPULAR_WORKSPACE",
+                                "data": {
+                                    "text": "Popular",
+                                    "icon": {
+                                        "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/assets/popularity-tag.svg",
+                                        "alt": "Popular Tag"
+                                    }
+                                }
+                            }
+                        ],
+                        "product": [],
+                        "offer": []
+                    }
+                },
+                "meetingroominventories": [
+                    {
+                        "_id": "6527ae1a062732ba2dfad6f5",
+                        "capacity": "6",
+                        "images": [
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/awfis-n-heights/meeting-room/plans/6-seater/hdk97u.jpg",
+                                "alt": "Awfis meeting rooms in HITEC City, Hyderabad"
+                            },
+                            {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/workspaces/awfis-n-heights/meeting-room/plans/6-seater/mfmcrd.jpg",
+                                "alt": "Awfis conference rooms in HITEC City, Hyderabad"
+                            }
+                        ],
+                        "equipments": [
+                            {
+                                "id": "MONITOR_TV",
+                                "title": "Monitor/TV",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/monitor_tv.svg",
+                                    "alt": "Monitor/TV"
+                                }
+                            },
+                            {
+                                "id": "WHITEBOARD",
+                                "title": "Whiteboard",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/whiteboard.svg",
+                                    "alt": "Whiteboard"
+                                }
+                            },
+                            {
+                                "id": "WIFI",
+                                "title": "Wifi",
+                                "icon": {
+                                    "url": "https://res.cloudinary.com/myhq/image/upload/product/meeting-room/equipments/wifi.svg",
+                                    "alt": "Wifi"
+                                }
+                            }
+                        ],
+                        "usecases": [
+                            "Board Meeting/Presentation",
+                            "Interviews",
+                            "Brainstorming"
+                        ],
+                        "pricePerHour": 1000,
+                        "unitIds": [
+                            "6527ae1a062732ba2dfad6f5",
+                            "6527ae25062732ba2dfad743"
+                        ],
+                        "state": "ACTIVE",
+                        "bookingType": "ONLINE_INSTANT",
+                        "redirectUrl": "/meeting-room/awfis-n-heights?capacity=6&date=2025-04-08T18%3A30%3A00.000Z",
+                        "bookingRedirectUrl": "/meeting-room/payment/room-list/awfis-n-heights?capacity=6&date=2025-04-08T18%3A30%3A00.000Z"
+                    }
+                ],
+                "cta": {
+                    "data": {
+                        "text": "Book Now"
+                    }
+                },
+                "meetingroominventorygroup": {
+                    "capacity": 6,
+                    "bookingType": "ONLINE_INSTANT",
+                    "pricing": {
+                        "pricePerHour": 1000
+                    },
+                    "nextAvailableDate": "2025-04-08T18:30:00.000Z"
+                }
+            }
+        ],
+        "nearbyWorkspaces": [],
+        "unavailableWorkspaces": [],
+        "locations": [
+            {
+                "id": "5f68b1f3fe3dac4825ea18f9",
+                "_id": "5f68b1f3fe3dac4825ea18f9",
+                "type": "CITY",
+                "name": "Hyderabad",
+                "slug": "hyderabad",
+                "googlePlaceId": "ChIJx9Lr6tqZyzsRwvu6koO3k64",
+                "coordinates": [
+                    78.486671,
+                    17.385044
+                ]
+            }
+        ],
+        "seoData": {
+            "breadcrumbs": [
+                {
+                    "_id": "5ebbd4bdfad36631948acaf7",
+                    "name": "Meeting Room",
+                    "key": "MEETING_ROOM",
+                    "slug": "meeting-room",
+                    "redirectUrl": "/hyderabad/meeting-room"
+                },
+                {
+                    "_id": "5f68b1f3fe3dac4825ea18f9",
+                    "name": "Hyderabad",
+                    "slug": "hyderabad",
+                    "type": "CITY",
+                    "redirectUrl": "/hyderabad/meeting-room/hyderabad"
+                }
+            ],
+            "areametaData": [],
+            "myHQAreaMetaData": {
+                "about": "<p>myHQ offers meeting rooms in Hyderabad for your or your team's requirements to conduct meetings, presentations, interviews and many more.</p><br/>\n  <p>Hold your client meetings, workshops or get your team to present in our fully-serviced meeting rooms. Book on-demand by the hour, and ensure your meeting runs smoothly.</p>\n  <p>We'll help you find the ideal meeting room to host an event, to interview candidates, or a space to conduct training sessions. You will find many meeting rooms equipped with Projector / Screen to ensure seamless connectivity. simply choose a meeting room with myHQ in Hyderabad and get instant confirmation.</p><br/>",
+                "title": "Why choose myHQ for Meeting rooms in Hyderabad"
+            }
+        }
+    }
+}
