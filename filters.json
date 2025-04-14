@@ -1,0 +1,739 @@
+{
+    "success": true,
+    "data": {
+        "filters": [
+            {
+                "type": "SINGLE_SELECT",
+                "title": "Product",
+                "id": "PRODUCT",
+                "label": "Meeting Room",
+                "isUrlUpdate": true,
+                "isRefreshFilter": true,
+                "defaultValue": "MEETING_ROOM",
+                "selected": "MEETING_ROOM",
+                "config": {
+                    "platform": {
+                        "desktop": {
+                            "positions": [
+                                "FIXED"
+                            ],
+                            "filterClass": "PRIMARY"
+                        },
+                        "mobile": {
+                            "positions": [
+                                "FIXED",
+                                "HIDDEN"
+                            ],
+                            "filterClass": "SECONDARY"
+                        }
+                    }
+                },
+                "data": [
+                    {
+                        "id": "INDIVIDUAL",
+                        "title": "Day Pass",
+                        "additionalData": {
+                            "url": "/bangalore/flexi/coworking-space-in-bangalore"
+                        }
+                    },
+                    {
+                        "id": "MEETING_ROOM",
+                        "title": "Meeting Room",
+                        "additionalData": {
+                            "url": "/bangalore/meeting-room/bangalore"
+                        }
+                    },
+                    {
+                        "id": "DEDICATED",
+                        "title": "Coworking Space",
+                        "additionalData": {
+                            "url": "/bangalore/dedicated/coworking-space-in-bangalore"
+                        }
+                    },
+                    {
+                        "id": "MANAGED_OFFICE",
+                        "title": "Managed Office",
+                        "additionalData": {
+                            "url": "/bangalore/managed-office/bangalore"
+                        }
+                    },
+                    {
+                        "id": "VIRTUAL_OFFICE",
+                        "title": "Virtual Office",
+                        "additionalData": {
+                            "url": "/bangalore/virtual-office/virtual-office-in-bangalore"
+                        }
+                    },
+                    {
+                        "id": "COMMERCIAL_LEASING",
+                        "title": "Office/Commercial",
+                        "additionalData": {
+                            "url": "/bangalore/office-space-for-rent/bangalore"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "GROUP",
+                "subType": "DATE_DURATION_TIME",
+                "id": "DATE_DURATION_TIME",
+                "title": "Date & Duration",
+                "label": "Today (10 Apr), 1 hrs",
+                "config": {
+                    "platform": {
+                        "desktop": {
+                            "positions": [
+                                "SCROLL"
+                            ],
+                            "filterClass": "PRIMARY"
+                        },
+                        "mobile": {
+                            "positions": [
+                                "SCROLL"
+                            ],
+                            "filterClass": "PRIMARY"
+                        }
+                    }
+                },
+                "data": [
+                    {
+                        "id": "BOOKING_DATE",
+                        "type": "SINGLE_SELECT",
+                        "subType": "CALENDAR_UI",
+                        "default": "2025-04-09T18:30:00.000Z",
+                        "selected": "2025-04-09T18:30:00.000Z",
+                        "config": {
+                            "platform": {
+                                "desktop": {
+                                    "positions": [
+                                        "SCROLL"
+                                    ]
+                                },
+                                "mobile": {
+                                    "positions": [
+                                        "SCROLL"
+                                    ]
+                                }
+                            }
+                        },
+                        "data": []
+                    },
+                    {
+                        "type": "NUMBER",
+                        "id": "DURATION",
+                        "default": 1,
+                        "selected": 1,
+                        "config": {
+                            "minLimit": 1,
+                            "maxLimit": 10
+                        },
+                        "data": []
+                    },
+                    {
+                        "type": "MULTI_SELECT",
+                        "title": "Time Slot",
+                        "id": "TIME_SLOT",
+                        "defaultValue": [],
+                        "default": [],
+                        "selected": [],
+                        "config": {
+                            "platform": {
+                                "desktop": {
+                                    "positions": [
+                                        "SCROLL"
+                                    ]
+                                },
+                                "mobile": {
+                                    "positions": [
+                                        "SCROLL"
+                                    ]
+                                }
+                            }
+                        },
+                        "data": [
+                            {
+                                "id": "FULL_DAY",
+                                "title": "Full Day"
+                            },
+                            {
+                                "id": "MORNING",
+                                "title": "Morning",
+                                "description": "before 12 noon"
+                            },
+                            {
+                                "id": "AFTERNOON",
+                                "title": "Afternoon",
+                                "description": "12 noon to 4 pm"
+                            },
+                            {
+                                "id": "EVENING",
+                                "title": "Evening",
+                                "description": "after 4 pm"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "SINGLE_SELECT",
+                "subType": "MR_CAPACITY_UI",
+                "title": "Capacity",
+                "id": "CAPACITY",
+                "isUrlUpdate": false,
+                "label": "4+",
+                "selected": 4,
+                "config": {
+                    "platform": {
+                        "desktop": {
+                            "positions": [
+                                "SCROLL"
+                            ],
+                            "filterClass": "PRIMARY"
+                        },
+                        "mobile": {
+                            "positions": [
+                                "SCROLL",
+                                "HIDDEN"
+                            ],
+                            "filterClass": "PRIMARY"
+                        }
+                    }
+                },
+                "data": [
+                    {
+                        "id": -4,
+                        "title": "Upto 4"
+                    },
+                    {
+                        "id": 4,
+                        "title": "4+"
+                    },
+                    {
+                        "id": 6,
+                        "title": "6+"
+                    },
+                    {
+                        "id": 8,
+                        "title": "8+"
+                    },
+                    {
+                        "id": 10,
+                        "title": "10+"
+                    }
+                ]
+            },
+            {
+                "type": "SINGLE_SELECT",
+                "title": "City",
+                "id": "CITY",
+                "label": "Bangalore",
+                "subType": "CITY_UI",
+                "isUrlUpdate": true,
+                "defaultValue": "bangalore",
+                "selected": "bangalore",
+                "config": {
+                    "platform": {
+                        "desktop": {
+                            "positions": [
+                                "SCROLL"
+                            ],
+                            "filterClass": "PRIMARY"
+                        },
+                        "mobile": {
+                            "positions": [
+                                "SCROLL"
+                            ],
+                            "filterClass": "PRIMARY"
+                        }
+                    }
+                },
+                "data": [
+                    {
+                        "id": "ahmedabad",
+                        "title": "Ahmedabad",
+                        "additionalData": {
+                            "icon": {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/v1626956122/web/ssr/common/city-icon/ahmedabad-flat.svg",
+                                "alt": "Ahmedabad"
+                            },
+                            "url": "/ahmedabad/meeting-room/ahmedabad"
+                        }
+                    },
+                    {
+                        "id": "bangalore",
+                        "title": "Bangalore",
+                        "additionalData": {
+                            "icon": {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/city-icon/bangalore-flat.svg",
+                                "alt": "bangalore"
+                            },
+                            "url": "/bangalore/meeting-room/bangalore"
+                        }
+                    },
+                    {
+                        "id": "chennai",
+                        "title": "Chennai",
+                        "additionalData": {
+                            "icon": {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/city-icon/chennai-flat.svg",
+                                "alt": "Chennai"
+                            },
+                            "url": "/chennai/meeting-room/chennai"
+                        }
+                    },
+                    {
+                        "id": "new-delhi",
+                        "title": "Delhi",
+                        "additionalData": {
+                            "icon": {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/city-icon/new-delhi-flat.svg",
+                                "alt": "New Delhi"
+                            },
+                            "url": "/new-delhi/meeting-room/new-delhi"
+                        }
+                    },
+                    {
+                        "id": "gurugram",
+                        "title": "Gurgaon",
+                        "additionalData": {
+                            "icon": {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/city-icon/gurugram-flat.svg",
+                                "alt": "Gurugram"
+                            },
+                            "url": "/gurugram/meeting-room/gurugram"
+                        }
+                    },
+                    {
+                        "id": "hyderabad",
+                        "title": "Hyderabad",
+                        "additionalData": {
+                            "icon": {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/city-icon/hyderabad-flat.svg",
+                                "alt": "hyderabad"
+                            },
+                            "url": "/hyderabad/meeting-room/hyderabad"
+                        }
+                    },
+                    {
+                        "id": "mumbai",
+                        "title": "Mumbai",
+                        "additionalData": {
+                            "icon": {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/city-icon/mumbai-flat.svg",
+                                "alt": "mumbai"
+                            },
+                            "url": "/mumbai/meeting-room/mumbai"
+                        }
+                    },
+                    {
+                        "id": "noida",
+                        "title": "Noida",
+                        "additionalData": {
+                            "icon": {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/city-icon/noida-flat.svg",
+                                "alt": "Noida"
+                            },
+                            "url": "/noida/meeting-room/noida"
+                        }
+                    },
+                    {
+                        "id": "pune",
+                        "title": "Pune",
+                        "additionalData": {
+                            "icon": {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/city-icon/pune-flat.svg",
+                                "alt": "Pune"
+                            },
+                            "url": "/pune/meeting-room/pune"
+                        }
+                    },
+                    {
+                        "id": "dehradun",
+                        "title": "Dehradun",
+                        "additionalData": {
+                            "icon": {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/v1692614758/web/ssr/common/city-icon/Dehradun-flat.svg",
+                                "alt": "Dehradun"
+                            },
+                            "url": "/dehradun/meeting-room/dehradun"
+                        }
+                    },
+                    {
+                        "id": "gwalior",
+                        "title": "Gwalior",
+                        "additionalData": {
+                            "icon": {
+                                "url": "",
+                                "alt": "Gwalior"
+                            },
+                            "url": "/gwalior/meeting-room/gwalior"
+                        }
+                    },
+                    {
+                        "id": "imphal",
+                        "title": "Imphal",
+                        "additionalData": {
+                            "icon": {
+                                "url": "",
+                                "alt": "Imphal"
+                            },
+                            "url": "/imphal/meeting-room/imphal"
+                        }
+                    },
+                    {
+                        "id": "indore",
+                        "title": "Indore",
+                        "additionalData": {
+                            "icon": {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/city-icon/indore-flat.svg",
+                                "alt": "Indore"
+                            },
+                            "url": "/indore/meeting-room/indore"
+                        }
+                    },
+                    {
+                        "id": "jodhpur",
+                        "title": "Jodhpur",
+                        "additionalData": {
+                            "icon": {
+                                "url": "",
+                                "alt": "Jodhpur"
+                            },
+                            "url": "/jodhpur/meeting-room/jodhpur"
+                        }
+                    },
+                    {
+                        "id": "kochi",
+                        "title": "Kochi",
+                        "additionalData": {
+                            "icon": {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/city-icon/kochi-flat.svg",
+                                "alt": "kochi"
+                            },
+                            "url": "/kochi/meeting-room/kochi"
+                        }
+                    },
+                    {
+                        "id": "kolkata",
+                        "title": "Kolkata",
+                        "additionalData": {
+                            "icon": {
+                                "url": "https://res.cloudinary.com/myhq/image/upload/web/ssr/common/city-icon/kolkata-flat.svg",
+                                "alt": "Kolkata"
+                            },
+                            "url": "/kolkata/meeting-room/kolkata"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "MULTI_SELECT",
+                "title": "Locations",
+                "id": "LOCALITIES",
+                "label": "HSR Layout",
+                "subType": "LOCALITY_UI",
+                "isUrlUpdate": false,
+                "defaultValue": [
+                    "ChIJzW7cv5EUrjsRecj7OYRxMvI"
+                ],
+                "selected": [
+                    "ChIJzW7cv5EUrjsRecj7OYRxMvI"
+                ],
+                "config": {
+                    "platform": { 
+                        "desktop": {
+                            "positions": [
+                                "SCROLL"
+                            ],
+                            "filterClass": "PRIMARY"
+                        },
+                        "mobile": {
+                            "positions": [
+                                "SCROLL"
+                            ],
+                            "filterClass": "PRIMARY"
+                        }
+                    }
+                },
+                "data": []
+            },
+            {
+                "type": "SINGLE_SELECT",
+                "label": "Popularity",
+                "title": "Sort By",
+                "id": "SORT_BY",
+                "defaultValue": "POPULARITY",
+                "isUrlUpdate": false,
+                "selected": "POPULARITY",
+                "config": {
+                    "platform": {
+                        "desktop": {
+                            "positions": [
+                                "SCROLL"
+                            ],
+                            "filterClass": "SECONDARY"
+                        },
+                        "mobile": {
+                            "positions": [
+                                "HIDDEN"
+                            ],
+                            "filterClass": "SECONDARY"
+                        }
+                    }
+                },
+                "data": [
+                    {
+                        "id": "POPULARITY",
+                        "title": "Popularity"
+                    },
+                    {
+                        "id": "DISTANCE_CITY_CENTER",
+                        "title": "Distance (from city center)"
+                    },
+                    {
+                        "id": "DISTANCE_LOCALITY_CENTER",
+                        "title": "Distance (from location center)"
+                    },
+                    {
+                        "id": "PRICE_L_H",
+                        "title": "Price (L-H)"
+                    },
+                    {
+                        "id": "PRICE_H_L",
+                        "title": "Price (H-L)"
+                    },
+                    {
+                        "id": "CAPACITY_L_H",
+                        "title": "Capacity (L-H)"
+                    },
+                    {
+                        "id": "CAPACITY_H_L",
+                        "title": "Capacity (H-L)"
+                    }
+                ]
+            },
+            {
+                "type": "MULTI_SELECT",
+                "title": "Equipments",
+                "id": "EQUIPMENTS",
+                "defaultValue": [],
+                "isUrlUpdate": false,
+                "selected": [],
+                "config": {
+                    "platform": {
+                        "desktop": {
+                            "positions": [
+                                "SCROLL"
+                            ],
+                            "filterClass": "SECONDARY"
+                        },
+                        "mobile": {
+                            "positions": [
+                                "HIDDEN"
+                            ],
+                            "filterClass": "SECONDARY"
+                        }
+                    }
+                },
+                "data": [
+                    {
+                        "id": "MONITOR_TV_PROJECTOR",
+                        "title": "Monitor/TV/Projector"
+                    },
+                    {
+                        "id": "SPEAKERS",
+                        "title": "Speakers"
+                    },
+                    {
+                        "id": "VIDEO_CONFERENCE",
+                        "title": "Video Conference"
+                    },
+                    {
+                        "id": "WHITEBOARD",
+                        "title": "Whiteboard"
+                    }
+                ]
+            },
+            {
+                "type": "MULTI_SELECT",
+                "title": "Brands",
+                "id": "BRANDS",
+                "isUrlUpdate": false,
+                "placeholder": "Search for brands",
+                "defaultValue": [],
+                "selected": [],
+                "config": {
+                    "platform": {
+                        "desktop": {
+                            "positions": [
+                                "SCROLL"
+                            ],
+                            "filterClass": "SECONDARY"
+                        },
+                        "mobile": {
+                            "positions": [
+                                "HIDDEN"
+                            ],
+                            "filterClass": "SECONDARY"
+                        }
+                    }
+                },
+                "data": [
+                    {
+                        "id": "wework",
+                        "title": "WeWork"
+                    },
+                    {
+                        "id": "awfis",
+                        "title": "AWFIS"
+                    },
+                    {
+                        "id": "cowrks",
+                        "title": "CoWrks"
+                    },
+                    {
+                        "id": "innov8",
+                        "title": "Innov8"
+                    },
+                    {
+                        "id": "91springboard",
+                        "title": "91Springboard"
+                    },
+                    {
+                        "id": "evolve-work-studio",
+                        "title": "Evolve work studio"
+                    },
+                    {
+                        "id": "indiqube",
+                        "title": "IndiQube"
+                    },
+                    {
+                        "id": "smartworks",
+                        "title": "Smartworks"
+                    },
+                    {
+                        "id": "capsule-works",
+                        "title": "capsule works"
+                    }
+                ]
+            },
+            {
+                "type": "RANGE_INPUT",
+                "title": "Price per hour",
+                "id": "PRICE_RANGE",
+                "subType": "PRICE_RANGE_CREDITS",
+                "isUrlUpdate": false,
+                "defaultValue": {
+                    "range": [
+                        6000,
+                        6600
+                    ]
+                },
+                "selected": {
+                    "range": [
+                        200,
+                        10100
+                    ]
+                },
+                "config": {
+                    "rangeConfig": {
+                        "floor": 6000,
+                        "ceil": 6600,
+                        "step": 50,
+                        "hideLimitLabels": true,
+                        "hidePointerLabels": true
+                    },
+                    "platform": {
+                        "desktop": {
+                            "positions": [
+                                "SCROLL"
+                            ],
+                            "filterClass": "SECONDARY"
+                        },
+                        "mobile": {
+                            "positions": [
+                                "HIDDEN"
+                            ],
+                            "filterClass": "SECONDARY"
+                        }
+                    }
+                }
+            },
+            {
+                "type": "MULTI_SELECT",
+                "title": "Amenities",
+                "id": "AMENITIES",
+                "defaultValue": [],
+                "isUrlUpdate": false,
+                "selected": [],
+                "config": {
+                    "platform": {
+                        "desktop": {
+                            "positions": [
+                                "SCROLL"
+                            ],
+                            "filterClass": "SECONDARY"
+                        },
+                        "mobile": {
+                            "positions": [
+                                "HIDDEN"
+                            ],
+                            "filterClass": "SECONDARY"
+                        }
+                    }
+                },
+                "data": [
+                    {
+                        "id": "5eeb456ab9ab7545d63b5840",
+                        "title": "Parking",
+                        "description": "(2/4 Wheeler)"
+                    },
+                    {
+                        "id": "6412cc7c2bb256203498312e",
+                        "title": "Beverages",
+                        "description": "(Tea/Coffee/Water)"
+                    },
+                    {
+                        "id": "6412ccb42bb256203498313d",
+                        "title": "Electricity",
+                        "description": "(Charging, Power Backup)"
+                    },
+                    {
+                        "id": "6412cd0054d14f219f4199c8",
+                        "title": "Stationery",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "type": "BOOLEAN",
+                "title": "Booking Options",
+                "description": "",
+                "id": "INSTANT_CONFIRMATION",
+                "isUrlUpdate": false,
+                "config": {
+                    "platform": {
+                        "desktop": {
+                            "positions": [
+                                "SCROLL"
+                            ],
+                            "filterClass": "SECONDARY"
+                        },
+                        "mobile": {
+                            "positions": [
+                                "HIDDEN"
+                            ],
+                            "filterClass": "SECONDARY"
+                        }
+                    }
+                },
+                "data": [
+                    {
+                        "id": "INSTANT_CONFIRMATION",
+                        "title": "Instant Confirmation"
+                    }
+                ]
+            }
+        ]
+    }
+}

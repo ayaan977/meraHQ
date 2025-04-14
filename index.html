@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coworking Space Booking Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <style>
+        :root {
+            --primary-color: #4a6cf7;
+            --primary-hover: #3a5ce5;
+            --secondary-color: #6c757d;
+            --success-color: #28a745;
+            --danger-color: #dc3545;
+            --light-color: #f8f9fa;
+            --dark-color: #343a40;
+            --border-color: #dee2e6;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: var(--primary-color);
+            font-weight: 600;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        h1::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background-color: var(--primary-color);
+            border-radius: 3px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+            position: relative;
+            transition: var(--transition);
+        }
+
+        .form-group:hover {
+            transform: translateY(-2px);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--dark-color);
+            transition: var(--transition);
+        }
+
+        .form-group:hover label {
+            color: var(--primary-color);
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 16px;
+            transition: var(--transition);
+            background-color: white;
+        }
+
+        input[type="text"]:focus,
+        input[type="number"]:focus,
+        input[type="email"]:focus,
+        select:focus {
+            border-color: var(--primary-color);
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(74, 108, 247, 0.2);
+        }
+
+        select[multiple] {
+            height: 150px;
+        }
+
+        /* Style for placeholder text in dropdowns */
+        select option[value=""] {
+            color: #999;
+        }
+
+        .price-range {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        input[type="range"] {
+            flex: 1;
+            height: 8px;
+            -webkit-appearance: none;
+            appearance: none;
+            background: #ddd;
+            border-radius: 4px;
+            outline: none;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--primary-color);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        input[type="range"]::-webkit-slider-thumb:hover {
+            transform: scale(1.1);
+        }
+
+        .price-value {
+            min-width: 80px;
+            text-align: right;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        button {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 14px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            width: 100%;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        button:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        button::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 5px;
+            height: 5px;
+            background: rgba(255, 255, 255, 0.5);
+            opacity: 0;
+            border-radius: 100%;
+            transform: scale(1, 1) translate(-50%);
+            transform-origin: 50% 50%;
+        }
+
+        button:focus:not(:active)::after {
+            animation: ripple 1s ease-out;
+        }
+
+        @keyframes ripple {
+            0% {
+                transform: scale(0, 0);
+                opacity: 0.5;
+            }
+
+            100% {
+                transform: scale(20, 20);
+                opacity: 0;
+            }
+        }
+
+        .error {
+            color: var(--danger-color);
+            font-size: 14px;
+            margin-top: 5px;
+            display: none;
+            animation: shake 0.5s ease-in-out;
+        }
+
+        @keyframes shake {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            10%,
+            30%,
+            50%,
+            70%,
+            90% {
+                transform: translateX(-5px);
+            }
+
+            20%,
+            40%,
+            60%,
+            80% {
+                transform: translateX(5px);
+            }
+        }
+
+        .checkbox-group {
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            padding: 15px;
+            max-height: 200px;
+            overflow-y: auto;
+            transition: var(--transition);
+        }
+
+        .checkbox-group:hover {
+            border-color: var(--primary-color);
+        }
+
+        .checkbox-item {
+            margin-bottom: 12px;
+            transition: var(--transition);
+        }
+
+        .checkbox-item:hover {
+            transform: translateX(5px);
+        }
+
+        .checkbox-item label {
+            display: flex;
+            align-items: center;
+            font-weight: normal;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .checkbox-item:hover label {
+            color: var(--primary-color);
+        }
+
+        .checkbox-item input[type="checkbox"] {
+            margin-right: 10px;
+            width: 18px;
+            height: 18px;
+            accent-color: var(--primary-color);
+        }
+
+        .select-all-item {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 12px;
+            margin-bottom: 12px;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        /* Custom date picker styling */
+        .date-picker-container {
+            position: relative;
+        }
+
+        .date-picker-container i {
+            position: absolute;
+            right: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--primary-color);
+            pointer-events: none;
+        }
+
+        /* Flatpickr customization */
+        .flatpickr-calendar {
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            border: none;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        .flatpickr-day.selected {
+            background: var(--primary-color) !important;
+            border-color: var(--primary-color) !important;
+        }
+
+        .flatpickr-day:hover {
+            background: rgba(74, 108, 247, 0.1);
+        }
+
+        .flatpickr-months .flatpickr-month {
+            background: var(--primary-color);
+            color: white;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .flatpickr-current-month .flatpickr-monthDropdown-months {
+            color: white;
+        }
+
+        .flatpickr-weekdays {
+            background: rgba(74, 108, 247, 0.1);
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            input[type="text"],
+            input[type="number"],
+            input[type="email"],
+            select {
+                padding: 10px;
+            }
+        }
+
+        .range-slider {
+            position: relative;
+            width: 100%;
+            height: 5px;
+            margin: 20px 0;
+        }
+
+        .range-slider .slider-track {
+            position: absolute;
+            width: 100%;
+            height: 5px;
+            background: var(--border-color);
+            border-radius: 5px;
+        }
+
+        .range-slider input[type="range"] {
+            -webkit-appearance: none;
+            appearance: none;
+            position: absolute;
+            width: 100%;
+            height: 5px;
+            background: none;
+            pointer-events: none;
+        }
+
+        .range-slider input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background: var(--primary-color);
+            border-radius: 50%;
+            border: 2px solid white;
+            cursor: pointer;
+            pointer-events: auto;
+            transition: var(--transition);
+        }
+
+        .range-slider input[type="range"]::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+        }
+
+        .range-slider input[type="range"]::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            background: var(--primary-color);
+            border-radius: 50%;
+            border: 2px solid white;
+            cursor: pointer;
+            pointer-events: auto;
+            transition: var(--transition);
+        }
+
+        .range-slider input[type="range"]::-moz-range-thumb:hover {
+            transform: scale(1.2);
+        }
+
+        .price-values {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .slider-track {
+            background: linear-gradient(to right,
+                    var(--border-color) 0%,
+                    var(--primary-color) 0%,
+                    var(--primary-color) 100%,
+                    var(--border-color) 100%);
+        }
+
+        .price-range-container {
+            padding: 20px 0;
+        }
+
+        .range-inputs {
+            position: relative;
+            height: 30px;
+        }
+
+        .range-inputs input[type="range"] {
+            position: absolute;
+            width: 100%;
+            height: 5px;
+            background: none;
+            pointer-events: none;
+            -webkit-appearance: none;
+        }
+
+        .range-inputs input[type="range"]::-webkit-slider-thumb {
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            background: #4a6cf7;
+            pointer-events: auto;
+            -webkit-appearance: none;
+            cursor: pointer;
+        }
+
+        .range-inputs input[type="range"]::-moz-range-thumb {
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            background: #4a6cf7;
+            pointer-events: auto;
+            cursor: pointer;
+        }
+
+        .price-display {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .price-display span {
+            padding: 5px;
+            background: #f5f5f5;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Coworking Space Booking</h1>
+        <form id="bookingForm">
+            <div class="form-group">
+                <label for="product">Product Type</label>
+                <select id="product" name="product" required>
+                    <option value="" style="color: #999;">Select Product</option>
+                    <option value="meeting_room">Meeting Room</option>
+                    <option value="day_pass">Day Pass</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="city">City</label>
+                <select id="city" name="city" required>
+                    <option value="" style="color: #999;">Select City</option>
+                    <option value="Ahmedabad">Ahmedabad</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="gurugram">Gurugram</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Noida">Noida</option>
+                    <option value="Pune">Pune</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="localities">Localities</label>
+                <input type="text" id="localities" name="localities" placeholder="Enter localities">
+            </div>
+
+            <div class="form-group">
+                <label for="capacity">Capacity</label>
+                <input type="number" id="capacity" name="capacity" min="1" required placeholder="Enter capacity">
+            </div>
+
+            <div class="form-group">
+                <label for="date">Date</label>
+                <div class="date-picker-container">
+                    <input type="text" id="date" name="date" placeholder="Select date" required>
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="duration">Duration (hours)</label>
+                <input type="number" id="duration" name="duration" min="1" max="12" required
+                    placeholder="Enter duration">
+            </div>
+
+            <div class="form-group">
+                <label for="timeSlot">Time Slot</label>
+                <select id="timeSlot" name="timeSlot" required>
+                    <option value="" style="color: #999;">Select Time Slot</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="sortBy">Sort By</label>
+                <select id="sortBy" name="sortBy">
+                    <option value="popularity">Popularity</option>
+                    <option value="distance">Distance (from city center)</option>
+                    <option value="price_low_high">Price (L-H)</option>
+                    <option value="price_high_low">Price (H-L)</option>
+                    <option value="capacity_low_high">Capacity (L-H)</option>
+                    <option value="capacity_high_low">Capacity (H-L)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="priceRange">Price Range (₹)</label>
+                <input type="range" id="priceRange" min="0" max="50000" value="50000" step="100">
+                <div class="price-value">₹<span id="priceValue">50000</span></div>
+            </div>
+
+            <div class="form-group">
+                <label>Brands</label>
+                <div class="checkbox-group" id="brandsGroup">
+                    <div class="checkbox-item select-all-item">
+                        <label>
+                            <input type="checkbox" id="selectAllBrands"> Select All
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <label>
+                            <input type="checkbox" name="brands" value="wework"> WeWork
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <label>
+                            <input type="checkbox" name="brands" value="awfis"> AWFIS
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <label>
+                            <input type="checkbox" name="brands" value="cowrks"> CoWrks
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <label>
+                            <input type="checkbox" name="brands" value="innov8"> Innov8
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <label>
+                            <input type="checkbox" name="brands" value="91springboard"> 91Springboard
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <label>
+                            <input type="checkbox" name="brands" value="evolve-work-studio"> Evolve work studio
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <label>
+                            <input type="checkbox" name="brands" value="indiqube"> IndiQube
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <label>
+                            <input type="checkbox" name="brands" value="smartworks"> Smartworks
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <label>
+                            <input type="checkbox" name="brands" value="capsule-works"> capsule works
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Equipments</label>
+                <div class="checkbox-group" id="equipmentsGroup">
+                    <div class="checkbox-item select-all-item">
+                        <label>
+                            <input type="checkbox" id="selectAllEquipments"> Select All
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <label>
+                            <input type="checkbox" name="equipments" value="MONITOR_TV_PROJECTOR"> Monitor/TV/Projector
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <label>
+                            <input type="checkbox" name="equipments" value="SPEAKERS"> Speakers
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <label>
+                            <input type="checkbox" name="equipments" value="VIDEO_CONFERENCE"> Video Conference
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <label>
+                            <input type="checkbox" name="equipments" value="WHITEBOARD"> Whiteboard
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Amenities</label>
+                <div class="checkbox-group" id="amenitiesGroup">
+                    <div class="checkbox-item select-all-item">
+                        <label>
+                            <input type="checkbox" id="selectAllAmenities"> Select All
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <label>
+                            <input type="checkbox" name="amenities" value="parking"> Parking (2/4 Wheeler)
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <label>
+                            <input type="checkbox" name="amenities" value="beverages"> Beverages (Tea/Coffee/Water)
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <label>
+                            <input type="checkbox" name="amenities" value="electricity"> Electricity (Charging, Power
+                            Backup)
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <label>
+                            <input type="checkbox" name="amenities" value="stationery"> Stationery
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="receiverEmail">Receiver Email</label>
+                <input type="email" id="receiverEmail" name="receiverEmail" required placeholder="Enter receiver email">
+                <div class="error" id="receiverEmailError">Please enter a valid email address</div>
+            </div>
+
+            <div class="form-group">
+                <label for="ccEmail">CC Email</label>
+                <input type="email" id="ccEmail" name="ccEmail" placeholder="Enter CC email (optional)">
+                <div class="error" id="ccEmailError">Please enter a valid email address</div>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+        // Generate time slots
+        function generateTimeSlots() {
+            const timeSlotSelect = document.getElementById('timeSlot');
+            const startHour = 9; // 9 AM
+            const endHour = 20; // 8 PM
+
+            for (let hour = startHour; hour < endHour; hour++) {
+                const startTime = `${hour}:00`;
+                const endTime = `${hour + 1}:00`;
+                const option = document.createElement('option');
+                option.value = `${startTime}-${endTime}`;
+                option.textContent = `${startTime} - ${endTime}`;
+                timeSlotSelect.appendChild(option);
+            }
+        }
+
+        // Update price range value display
+        function updatePriceValue() {
+            const priceRange = document.getElementById('priceRange');
+            const priceValue = document.getElementById('priceValue');
+            priceValue.textContent = `₹${priceRange.value}`;
+        }
+
+        // Email validation
+        function validateEmail(email) {
+            const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return re.test(email);
+        }
+
+        // Handle select all functionality
+        function setupSelectAll(groupId, selectAllId) {
+            const group = document.getElementById(groupId);
+            const selectAllCheckbox = document.getElementById(selectAllId);
+            const checkboxes = group.querySelectorAll('input[type="checkbox"]:not(#' + selectAllId + ')');
+
+            // When individual checkboxes change, update the "Select All" checkbox
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', function () {
+                    const allChecked = Array.from(checkboxes).every(cb => cb.checked);
+                    selectAllCheckbox.checked = allChecked;
+                });
+            });
+
+            // When "Select All" checkbox changes, update all individual checkboxes
+            selectAllCheckbox.addEventListener('change', function () {
+                checkboxes.forEach(checkbox => {
+                    checkbox.checked = this.checked;
+                });
+            });
+        }
+
+        // Form submission
+        document.getElementById('bookingForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Get all form values
+            const product = document.getElementById('product').value;
+            const city = document.getElementById('city').value.toLowerCase();
+            const localities = document.getElementById('localities').value;
+            const capacity = parseInt(document.getElementById('capacity').value);
+            const date = document.getElementById('date').value;
+            const duration = parseInt(document.getElementById('duration').value);
+            const timeSlot = document.getElementById('timeSlot').value;
+            const sortBy = document.getElementById('sortBy').value.toUpperCase();
+            const priceRange = document.getElementById('priceRange').value;
+            // Get selected brands
+            const selectedBrands = Array.from(document.querySelectorAll('input[name="brands"]:checked'))
+                .map(checkbox => checkbox.value);
+
+            // Get selected equipments
+            const selectedEquipments = Array.from(document.querySelectorAll('input[name="equipments"]:checked'))
+                .map(checkbox => checkbox.value);
+
+            // Get selected amenities
+            const selectedAmenities = Array.from(document.querySelectorAll('input[name="amenities"]:checked'))
+                .map(checkbox => checkbox.value);
+            // Create the API request payload
+            const payload = {
+                url: `/${city}/meeting-room/${city}`,
+                selectedFilters: {
+                    PRODUCT: product === 'meeting_room' ? 'MEETING_ROOM' : 'DAY_PASS',
+                    CITY: city,
+                    LOCALITIES: localities ? [localities] : [], // You might want to handle multiple localities
+                    CAPACITY: capacity,
+                    DATE_DURATION_TIME: {
+                        DURATION: duration,
+                        BOOKING_DATE: new Date(date).toISOString(),
+                        TIME_SLOT: timeSlot ? [timeSlot] : []
+                    },
+                    SORT_BY: sortBy,
+                    EQUIPMENTS: selectedEquipments,
+                    BRANDS: selectedBrands,
+                    PRICE_RANGE: {
+                        range: [0, parseInt(priceRange)]
+                    },
+                    AMENITIES: selectedAmenities
+                },
+                pageNo: 1,
+                pageLimit: 16
+            };
+
+            // For development testing, just log the payload
+            // Send payload to external API
+            // Send payload to your own backend API
+            fetch('http://localhost:5050/api/book', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(payload)
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('API Response:', data);
+
+                    // Success message
+                    const button = document.querySelector('button[type="submit"]');
+                    button.innerHTML = '<i class="fas fa-check"></i> Submitted Successfully!';
+                    button.style.backgroundColor = 'var(--success-color)';
+
+                    setTimeout(() => {
+                        document.getElementById('bookingForm').reset();
+                        button.innerHTML = 'Submit';
+                        button.style.backgroundColor = 'var(--primary-color)';
+                    }, 1500);
+                })
+                .catch(error => {
+                    console.error('API call failed:', error);
+                    alert('Something went wrong. Please try again.');
+                });
+
+
+
+            // Show success message without making the actual API call
+            const button = document.querySelector('button[type="submit"]');
+            button.innerHTML = '<i class="fas fa-check"></i> Submitted Successfully!';
+            button.style.backgroundColor = 'var(--success-color)';
+
+            setTimeout(() => {
+                document.getElementById('bookingForm').reset();
+                button.innerHTML = 'Submit';
+                button.style.backgroundColor = 'var(--primary-color)';
+            }, 1500);
+        });
+
+        // Initialize the form
+        document.addEventListener('DOMContentLoaded', function () {
+            generateTimeSlots();
+            updatePriceValue();
+
+            // Add event listener for price range
+            document.getElementById('priceRange').addEventListener('input', updatePriceValue);
+
+            // Setup select all functionality
+            setupSelectAll('brandsGroup', 'selectAllBrands');
+            setupSelectAll('equipmentsGroup', 'selectAllEquipments');
+            setupSelectAll('amenitiesGroup', 'selectAllAmenities');
+
+            // Initialize Flatpickr date picker
+            flatpickr("#date", {
+                dateFormat: "Y-m-d",
+                minDate: "today",
+                maxDate: new Date().fp_incr(30), // Allow booking up to 30 days in advance
+                disable: [
+                    function (date) {
+                        // Disable weekends
+                        return (date.getDay() === 0 || date.getDay() === 6);
+                    }
+                ],
+                locale: {
+                    firstDayOfWeek: 1 // Start week on Monday
+                },
+                onChange: function (selectedDates, dateStr, instance) {
+                    // Add animation when date is selected
+                    const input = document.getElementById('date');
+                    input.style.animation = 'none';
+                    input.offsetHeight; // Trigger reflow
+                    input.style.animation = 'pulse 0.5s';
+                }
+            });
+
+            // Add pulse animation for date selection
+            const style = document.createElement('style');
+            style.innerHTML = `
+                @keyframes pulse {
+                    0% { box-shadow: 0 0 0 0 rgba(74, 108, 247, 0.4); }
+                    70% { box-shadow: 0 0 0 10px rgba(74, 108, 247, 0); }
+                    100% { box-shadow: 0 0 0 0 rgba(74, 108, 247, 0); }
+                }
+            `;
+            document.head.appendChild(style);
+
+            setupPriceRangeSlider();
+        });
+
+        function setupPriceRangeSlider() {
+            const minSlider = document.getElementById('priceMin');
+            const maxSlider = document.getElementById('priceMax');
+            const minDisplay = document.getElementById('minValue');
+            const maxDisplay = document.getElementById('maxValue');
+
+            function updateValues() {
+                let minVal = parseInt(minSlider.value);
+                let maxVal = parseInt(maxSlider.value);
+
+                // Ensure min doesn't exceed max
+                if (minVal > maxVal) {
+                    if (this === minSlider) {
+                        minVal = maxVal;
+                        minSlider.value = maxVal;
+                    } else {
+                        maxVal = minVal;
+                        maxSlider.value = minVal;
+                    }
+                }
+
+                // Update display values
+                minDisplay.textContent = minVal.toLocaleString();
+                maxDisplay.textContent = maxVal.toLocaleString();
+            }
+
+            minSlider.addEventListener('input', updateValues);
+            maxSlider.addEventListener('input', updateValues);
+
+            // Initial update
+            updateValues();
+        }
+    </script>
+</body>
+
+</html>
